@@ -23,18 +23,27 @@ export default defineAppConfig({
     }
   },
   footer: {
-    credits: `Built with Nuxt UI • © ${new Date().getFullYear()}`,
+    credits: `© Adam Menczykowski ${new Date().getFullYear()}`,
     colorMode: false,
-    links: [{
-      'icon': 'i-simple-icons-x',
-      'to': 'https://x.com/adammench',
-      'target': '_blank',
-      'aria-label': 'Adam on X'
-    }, {
-      'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/admench',
-      'target': '_blank',
-      'aria-label': 'Adam on GitHub'
-    }]
+    links: [
+      {
+        'icon': 'i-lucide-rocket',
+        'to': 'https://youi.design',
+        'target': '_blank',
+        'title': 'You I Limited',
+        'aria-label': 'You I Limited'
+      }, {
+        'icon': 'i-simple-icons-x',
+        'to': 'https://x.com/adammench',
+        'target': '_blank',
+        'aria-label': 'Adam on X',
+        'title': 'Adam on X'
+      }, {
+        'icon': 'i-simple-icons-github',
+        'to': 'https://github.com/admench',
+        'target': '_blank',
+        'aria-label': 'Adam on GitHub',
+        'title': 'Adam on GitHub'
+      }]
   }
 })
