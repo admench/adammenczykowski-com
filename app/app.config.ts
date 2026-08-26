@@ -51,6 +51,12 @@ export default defineAppConfig({
         'target': '_blank',
         'aria-label': 'Adam on GitHub',
         'title': 'Adam on GitHub'
+      }, {
+        'icon': 'i-simple-icons-youtube',
+        'to': 'https://www.youtube.com/@adammenczykowski',
+        'target': '_blank',
+        'aria-label': 'Adam on YouTube',
+        'title': 'Adam on YouTube'
       }]
   }
 })

@@ -17,6 +17,9 @@ pinnedLinks:
   - label: "Instagram"
     to: "https://www.instagram.com/admench/"
     icon: "ant-design:instagram-filled"
+  - label: "YouTube"
+    to: "https://www.youtube.com/@adammenczykowski"
+    icon: "i-simple-icons-youtube"
 otherLinks:
   - label: "Sound engineer lesson to Software"
     to: "https://youtube.com/shorts/OBltpxpqs1Q?feature=share"
