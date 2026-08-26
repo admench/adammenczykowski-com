@@ -1,8 +1,8 @@
 export default defineAppConfig({
   global: {
     picture: {
-      dark: 'https://adammenczykowski.com/adam-beach.webp',
-      light: 'https://adammenczykowski.com/adam-beach.webp',
+      dark: '/adam-menczykowski-croatia-beer.webp',
+      light: '/adam-menczykowski-croatia-beer.webp',
       alt: 'My profile picture'
     },
     meetingLink: 'mailto:adam@youi.design',
