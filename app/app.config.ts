@@ -28,6 +28,12 @@ export default defineAppConfig({
     colorMode: false,
     links: [
       {
+        'icon': 'i-lucide-link',
+        'to': '/links',
+        'title': 'Links',
+        'aria-label': 'Adam\'s links'
+      },
+      {
         'icon': 'i-lucide-rocket',
         'to': 'https://youi.design',
         'target': '_blank',
