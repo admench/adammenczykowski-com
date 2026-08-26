@@ -28,7 +28,7 @@ function getIcon(logo: string) {
     }"
   >
     <template #description>
-      <div class="flex flex-col gap-2">
+      <div class="flex flex-col gap-8">
         <Motion
           v-for="(experience, index) in page.experience.items"
           :key="index"
@@ -36,14 +36,14 @@ function getIcon(logo: string) {
           :while-in-view="{ opacity: 1, transform: 'translateY(0)' }"
           :transition="{ delay: 0.4 + 0.2 * index }"
           :in-view-options="{ once: true }"
-          class="text-muted flex items-center text-nowrap gap-2"
+          class="text-muted flex flex-col md:flex-row items-start md:items-center text-nowrap gap-2"
         >
           <p class="text-sm">
             {{ experience.date }}
           </p>
-          <USeparator />
+          <USeparator class="max-md:hidden" />
           <ULink
-            class="flex items-baseline gap-1"
+            class="flex flex-col md:flex-row items-start md:items-center gap-2"
             :to="experience.company.url"
             target="_blank"
           >

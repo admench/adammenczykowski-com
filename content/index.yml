@@ -37,14 +37,14 @@ experience:
         name: "Independent"
         logo: "i-lucide-code-2"
         url: "https://adammenczykowski.com/curriculum-vitae"
-        color: "#6B7280"
+        color: "#777777"
     - position: "Live Sound & Studio Engineer"
       date: "2006 - 2012"
       company:
         name: "Music industry"
         logo: "i-lucide-music-2"
         url: "https://adammenczykowski.com/curriculum-vitae"
-        color: "#8B5CF6"
+        color: "#777777"
 testimonials:
   - quote: "Adam's intelligence and patience were particularly striking; nothing was impossible. The entirely bespoke system has revolutionised our workflows and is intuitive and easy to train new users on."
     author:
