@@ -28,7 +28,7 @@ function getIcon(logo: string) {
     }"
   >
     <template #description>
-      <div class="flex flex-col gap-8">
+      <div class="flex flex-col gap-8 md:gap-2">
         <Motion
           v-for="(experience, index) in page.experience.items"
           :key="index"
