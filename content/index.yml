@@ -71,48 +71,45 @@ blog:
   title: "Latest writing"
   description: "Notes on design, development and building software that lasts."
 faq:
-  title: "Frequently asked questions"
-  description: "A little more about what I do, how I work and where I came from."
+  title: "A few things you might ask"
+  description: "Work, music, technology and the person connecting them."
   categories:
-    - title: "What I do"
+    - title: "Work"
       questions:
         - label: "What do you do?"
           content: |
-            I'm a design engineer and full-stack developer. I take ideas from early conversations and rough sketches through UX, interface design, technical architecture, development, deployment and ongoing improvement. That broad view helps me make practical decisions without losing sight of the people who will use the finished product.
-        - label: "What kinds of products do you build?"
+            I'm a design engineer and full-stack developer. I work across product thinking, user experience, interface design and software engineering, often taking an idea from the first sketch through to a reliable product in people's hands.
+        - label: "What kinds of problems interest you?"
           content: |
-            I build bespoke business software, internal systems, member and client portals, reporting tools, directories and content-rich CMS websites. I particularly enjoy untangling complex workflows and turning scattered tools, spreadsheets or legacy systems into one clear, maintainable product.
-        - label: "Do you handle both design and development?"
+            Messy, important ones. I enjoy untangling complicated workflows, ageing systems and scattered tools, then turning them into something people can understand and depend on. The technology matters, but only in service of making the problem clearer.
+        - label: "What does good software look like to you?"
           content: |
-            Yes. I work across product thinking, UX and visual design as well as front-end and back-end engineering. Depending on the project, that can mean prototyping in Figma, planning data and system architecture, building interfaces and APIs, or managing infrastructure and deployment.
-        - label: "What technologies do you work with?"
+            Useful, understandable and durable. It should solve a real problem, feel calm to use and remain maintainable after the excitement of launch has passed. Good software respects both the people using it and the people who will look after it.
+        - label: "How can we work together?"
           content: |
-            My recent work centres on Laravel, Statamic, Vue, Nuxt and Tailwind CSS. I also work with tools such as Inertia, GraphQL, Typesense, AWS, Laravel Forge, Sentry and Figma. I choose technology around the problem rather than forcing every project into the same stack.
-    - title: "Working together"
+            Most of my client work happens through [You I](https://youi.design), the digital product studio I run with my wife, Abby. I also collaborate with established product and engineering teams. If you have an interesting problem or simply want to compare notes, [send me an email](mailto:adam@youi.design).
+    - title: "Backstory"
       questions:
-        - label: "How can I work with you?"
+        - label: "How did you go from music to software?"
           content: |
-            Most of my client work happens through [You I](https://youi.design), the small digital product studio I run with my wife, Abby. I also have experience joining established teams as a senior JavaScript developer and technical partner. The best place to start is a conversation about the problem you are trying to solve.
-        - label: "Who do you usually work with?"
+            I studied Music Production, ran a recording studio and spent six years producing records and touring as a live sound engineer. I began teaching myself web development and freelancing in 2012 (even though my first website was back in 1999!), then co-founded You I in 2014. The tools changed, but the mix of creativity, technology and collaboration felt familiar.
+        - label: "What did touring teach you?"
           content: |
-            Through You I, I work with established businesses, charities and membership organisations that need to replace outdated systems, improve difficult processes or create better digital services. I've worked directly with local and international clients as well as within larger in-house development teams.
-        - label: "Can you replace an old or legacy system?"
+            Listen closely, prepare properly and stay calm when something breaks in front of a room full of people. Live sound also taught me that the best technical work is often invisible: people may never notice the details, but they feel the result. I still approach software in much the same way.
+        - label: "Why work across design and engineering?"
           content: |
-            Yes. Legacy replacement is about much more than rebuilding screens. I take time to understand existing workflows, data relationships, integrations, security requirements and the people who rely on the system. For Eccles Fisher, we replaced a nearly 40-year-old desktop application while preserving decades of publishing data and moving hundreds of users to a secure web platform.
-        - label: "Do you provide ongoing support?"
-          content: |
-            Yes. I believe software needs care after launch, so ongoing monitoring, maintenance, performance work and feature development are a normal part of many long-term client relationships. Support arrangements are tailored to the product and the level of help required.
-    - title: "About me"
+            Because the most important product decisions rarely belong entirely to one discipline. Understanding both lets me carry context from a conversation into an interface, a data model and the finished experience without losing the original intent along the way.
+    - title: "Life & ideas"
       questions:
         - label: "Where are you based?"
           content: |
-            I'm based in Hitchin, Hertfordshire, in the UK. I work both remotely and in person, and have collaborated with clients and teams across the UK, Europe and North America.
-        - label: "How did you get into software development?"
+            I live in Hitchin, Hertfordshire, in the UK. It is close enough to London when I need the city and far enough away to enjoy a quieter pace the rest of the time.
+        - label: "What do you do away from the screen?"
           content: |
-            I'm a self-taught developer. After studying Music Production, I spent several years running a recording studio and touring internationally as a live sound engineer. I began freelancing as a web developer in 2012, co-founded You I in 2014 and have been designing and building software ever since.
-        - label: "What matters to you in your work?"
+            I'm a husband, father and still a musician. Family life occupies most of the space beyond work, while playing, recording and listening to music keep me connected to the creative life I had before software. I'm pretty handy when it comes to Woodwork & DIY - another passion of mine!
+        - label: "What are you curious about right now?"
           content: |
-            Simplicity, usefulness and longevity. I like getting close to a problem, communicating clearly and making complex systems feel calm and intuitive. I care equally about clean interfaces, maintainable code and the long-term relationship behind a project.
-        - label: "What do you do outside work?"
+            How AI changes creative and technical work, what human judgment becomes more valuable as information gets cheaper, and how experienced people can keep adapting without chasing every trend. I'm also learning how to share more of my thinking through writing and video.
+        - label: "Why have a personal site?"
           content: |
-            I'm a father, husband and musician. Music came before software and remains an important part of who I am, whether I'm playing, recording or simply listening.
+            My work is only one part of my identity. This gives me a place to connect the ideas that cross music, software, craft, family and technological change, without forcing everything through the lens of a company or a particular platform.
