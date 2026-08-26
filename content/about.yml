@@ -1,36 +1,15 @@
 title: "About Adam"
-description: "I'm a design engineer and full-stack developer who turns complex ideas into thoughtful, useful software for the web."
+description: "I'm a musician-turned-design engineer, self-taught developer and lifelong maker based in Hitchin, UK."
 content: |
-  Hi, I'm **Adam Menczykowski**. I'm a design engineer, full-stack developer and Technical Director based in Hitchin, Hertfordshire. For more than 15 years, I've been helping businesses and organisations turn difficult problems into digital products that feel clear, useful and built to last. I work across the whole product: understanding the problem, shaping the user experience, designing the interface, planning the architecture and writing the code that brings it all together. That range is deliberate: the best decisions rarely belong to design or engineering alone, and I like being able to follow an idea from the first sketch through to a reliable product in people's hands.
+  Before software, there was music. I studied Music Production, ran a recording studio in Letchworth and spent six years producing records and mixing live shows around the world with artists including Phoenix, Get Cape. Wear Cape. Fly. and Good Shoes. Hundreds of soundchecks and shows taught me to listen carefully, stay calm when things go wrong and care about the details most people never see but everyone feels.
 
-  ## Building You I Ltd.
+  I started teaching myself web development in 2012. The tools changed, but what attracted me to the work did not: craft, technology, collaboration and the satisfaction of turning a rough idea into a useful experience. In 2014, I co-founded [You I](https://youi.design) with my wife, Abby. Today, I work across design and engineering, following complicated products from the first conversation through interface design, architecture and code.
 
-  I'm the Technical Director and Co-Founder of [You I](https://youi.design), the small digital product studio I run with my wife, Abby. We work with membership organisations, established businesses & charities that have outgrown their current setup and need something designed around the way they actually work. Since 2014, I've led the design and development of more than 50 CMS websites and around 10 full-stack applications. The work has included bespoke business systems, member and client portals, directories, reporting tools, e-commerce integrations and content-rich websites. Some projects begin with a new idea; others involve carefully replacing software that has been essential to an organisation for decades. Being a small team means I stay close to every stage of a project. I can be discussing goals with a client in the morning, sketching a workflow before lunch and deep in development by the afternoon. I enjoy that variety, but more importantly, it means fewer assumptions are lost between the people defining a problem and the person building its solution. I didn't start You I simply to build websites. I wanted to build solutions that help people move forward, and to do it in a way that feels personal, honest and grounded.
+  ## What connects it all
 
-  ### Design and engineering
+  I'm interested in making complicated things understandable. In software, that means creating products that feel clear, useful and durable without pretending the complexity behind them does not exist. More broadly, it shapes how I think about communication, creativity, technological change and the value of good judgment. I prefer practical decisions over fashionable ones, and I believe the best work begins with curiosity and listening.
 
-  My work sits between product design and software engineering. I care about typography, spacing and the small interaction details that make an interface feel effortless, but I care just as much about the data model, deployment process, monitoring and maintainability behind it. My recent projects are usually built with **Laravel, Statamic, Inertia, Vue and Tailwind CSS**, alongside tools such as Nuxt, GraphQL, Typesense, AWS, Laravel Forge, Sentry and Figma. The stack changes when the problem calls for it. Technology is a means to an end, and I would rather choose a dependable, understandable solution than follow a trend for its own sake. One project might involve migrating 130,000 publishing records from a nearly 40-year-old desktop system into a secure Laravel platform. Another might involve creating a design system and hundreds of components for an enterprise application spanning sales, warehousing, finance and logistics. The details vary, but the goal is consistent: make something complex feel simple without pretending the complexity is not there.
+  ## Away from the screen
 
-  ### Working with teams
-
-  Alongside You I, I have worked with Storm Technologies as a Senior JavaScript Developer since 2020. There, I helped establish the front-end architecture for a large internal ERP system, built a component-led design system and worked with stakeholders across several areas of the business. That experience reinforced something I already believed: communication is part of the engineering work. Good software depends on asking the right questions, making decisions visible and helping technical and non-technical people develop a shared understanding of what is being built and why. I have worked independently, led client projects, collaborated inside larger development teams and mentored a junior developer. In every setting, I try to bring the same qualities: curiosity, patience, attention to detail and a willingness to take responsibility for the wider outcome rather than only my part of the codebase.
-
-  ### From music to software
-
-  My route into software was not conventional. I studied Music Production at university, ran a recording studio in Letchworth and spent six years working as a studio engineer, producer and live sound monitor engineer. Touring took me around the world with artists including Phoenix, Get Cape. Wear Cape. Fly. and Good Shoes. Mixing hundreds of live shows taught me to listen carefully, stay calm under pressure and solve problems quickly when there is no option to pause and try again tomorrow. Running a studio taught me how to work directly with clients and translate a creative idea into something real. I began teaching myself web development and started freelancing in 2012. The tools were different, but much of what drew me to music was there too: a mix of craft, technology, collaboration and detail, all working together to create an experience for someone else.
-
-  ### How I approach the work
-
-  I believe useful software starts with understanding how people already work. Before deciding what to build, I want to know where time is being lost, what knowledge is hidden in spreadsheets or ageing systems, which exceptions matter and what success would genuinely change for the people involved. From there, my approach is practical and iterative: make the problem visible, reduce unnecessary complexity, test assumptions early and build a strong foundation for what comes next. Launch is not the finish line. I monitor the products I build, support them over time and keep improving them as the organisation and its needs evolve.
-
-  The principles I return to are simple:
-
-  - **Make it useful.** A product should solve a real problem, not just look impressive.
-  - **Make it understandable.** Clear interfaces, clear code and clear communication all matter.
-  - **Make it durable.** Good decisions should support the product beyond its first release.
-  - **Stay close to the people using it.** Your experience is the measure that counts.
-
-  ### Away from the screen
-
-  I'm a father, husband and musician. Music is still an important part of my life, even though most of my working days now involve interfaces, architecture and code rather than stages and recording desks. I'm based in Hitchin and work with people both locally and internationally. If you'd like to see what I've been building, take a look at my [projects](https://youi.design/work). If you have a complex digital problem you want to make simpler, [send me an email](mailto:adam@youi.design) or start a conversation with us at [You I](https://youi.design/contact).
+  I'm a husband, father and still a musician. I live in Hitchin, Hertfordshire, and this site is where I share what I'm building, what I'm learning and the ideas connecting the different parts of my life. If any of that resonates, [say hello](mailto:adam@youi.design).
 images: []
