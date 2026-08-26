@@ -1,124 +1,109 @@
 seo:
-  title: "Adam Menczykowski - software developer"
-  description: "Welcome to my portfolio! I'm Adam Menczykowski, a software developer and front-end developer based in Boston. I specialize in creating user-centered digital experiences that are both beautiful and functional."
-title: "Hey, I'm Adam Menczykowski, a software developer"
-description: "My passion is simple & powerful software for the web. Based in Hitchin UK, I bring ideas to life through code and creativity."
+  title: "Adam Menczykowski - Design Engineer & Full-Stack Developer"
+  description: "Adam Menczykowski is a design engineer and full-stack developer in Hitchin, UK, building thoughtful websites, platforms and bespoke software for the web."
+title: "Hey, I'm Adam, a design engineer and full-stack developer"
+description: "I turn complex ideas into simple, useful software for the web. Based in Hitchin, UK."
 hero:
   links:
     - label: "Browse my work"
       to: "/projects"
       color: "neutral"
-  images:
-    - src: /hero/random-1.avif
-      alt: Random Image 1
-    - src: /hero/random-2.avif
-      alt: Random Image 2
-    - src: /hero/random-3.avif
-      alt: Random Image 3
-    - src: /hero/random-4.avif
-      alt: Random Image 4
-    - src: /hero/random-5.avif
-      alt: Random Image 5
-    - src: /hero/random-6.avif
-      alt: Random Image 6
-    - src: /hero/random-7.avif
-      alt: Random Image 7
-    - src: /hero/random-8.avif
-      alt: Random Image 8
-    - src: /hero/random-9.avif
-      alt: Random Image 9
+  images: []
 about:
-  title: "About Me"
+  title: "About me"
   description: |
-    I am a full stack developer with experience running projects as a solo developer and also in teams. I am interested in all aspects of web / software development - from design, architecture, back end and front end development. I pride myself on my communication skills , and understand the importance of taking a holistic, all encompassing approach to my work. I have an eye for detail and strive for beautiful clean design on whatever I do.
+    I'm a self-taught developer with more than 15 years of experience designing and building digital products. As Technical Director and Co-Founder of You I, I work across strategy, UX, architecture, back-end and front-end development to create software that feels straightforward, even when the problem behind it is complex. I'm happiest combining clean design, thoughtful communication and solid engineering to build things that work beautifully and last.
 experience:
-  title: Work Experience
+  title: "Work experience"
+  description: "From live music and studio production to full-stack product development."
   items:
-    - position: "Director and Lead Developer"
+    - position: "Technical Director & Co-Founder"
       date: "2014 - Present"
       company:
-        name: 'You I'
+        name: "You I"
         logo: "icons/YouIFavicon"
-        url: "https://nuxt.com"
-        color: "#00DC82"
-    - position: "Senior Javascript Developer"
-      date: "2020 - 2024"
+        url: "https://youi.design"
+        color: "#444444"
+    - position: "Senior JavaScript Developer"
+      date: "2020 - Present"
       company:
-        name: 'Storm Technologies'
+        name: "Storm Technologies"
         logo: "icons/StormFavicon"
-        url: "https://raycast.com"
-        color: "#FF6363"
-    - position: "Junior web developer"
+        url: "https://youi.design/work/storm-technologies"
+        color: "#777777"
+    - position: "Freelance Web Developer"
       date: "2012 - 2014"
       company:
-        name: Freelance
-        url: "https://linear.app"
-        color: "#5E6AD2"
-    - position: "Live sound - monitor engineer"
+        name: "Independent"
+        logo: "i-lucide-code-2"
+        url: "https://adammenczykowski.com/curriculum-vitae"
+        color: "#6B7280"
+    - position: "Live Sound & Studio Engineer"
       date: "2006 - 2012"
       company:
-        name: 'Bands on tour'
-        url: "https://linear.app"
-        color: "#f73b9e"
+        name: "Music industry"
+        logo: "i-lucide-music-2"
+        url: "https://adammenczykowski.com/curriculum-vitae"
+        color: "#8B5CF6"
 testimonials:
-  - quote: "Emma's approach to UX design completely transformed our product. She has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our customer support tickets by 40% and increased conversion rates across all key metrics."
+  - quote: "Adam's intelligence and patience were particularly striking; nothing was impossible. The entirely bespoke system has revolutionised our workflows and is intuitive and easy to train new users on."
     author:
-      name: 'Sarah Chen'
-      description: 'Product Director at Bloom Finance'
-      avatar:
-        src: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
-        srcset: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
-  - quote: "Working with Emma was the best decision we made for our startup. She didn't just deliver designs—she challenged our assumptions, conducted thorough user research, and created an experience that truly resonated with our audience. Her technical knowledge of front-end development meant the handoff to our engineering team was seamless."
+      name: "Catherine Eccles"
+      description: "Eccles Fisher Associates"
+  - quote: "Adam and Abby understood exactly what we wanted to achieve and brought lots of ideas about how best to get there. They're well organised, transparent and collaborative. I can't recommend You I enough."
     author:
-      name: 'Michael Rodriguez'
-      description: 'Co-founder of Wavelength Music'
-      avatar:
-        src: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
-        srcset: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
-  - quote: "Emma stands out in her ability to translate complex sustainability data into intuitive interfaces. Her work on EcoTrack wasn't just visually stunning—it fundamentally changed how our users interact with environmental information. She approaches each problem with both creativity and analytical rigor, which is exactly what we needed."
+      name: "Sam Joyce"
+      description: "CEO, Mint Consulting"
+  - quote: "Working with Adam was an absolute game-changer for our business. His innovative solutions and technical proficiency were key factors in our growth and long-term success."
     author:
-      name: 'Dr. Aisha Johnson'
-      description: 'Chief Innovation Officer at GreenTech Solutions'
-      avatar:
-        src: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
-        srcset: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
+      name: "Victor Saly"
+      description: "Head of Software Development, Storm Technologies"
 blog:
-  title: "Latest Articles"
-  description: "Some of my recent thoughts"
+  title: "Latest writing"
+  description: "Notes on design, development and building software that lasts."
 faq:
-  title: Frequently Asked Questions
-  description: Answers to common questions about my process and services.
+  title: "Frequently asked questions"
+  description: "A little more about what I do, how I work and where I came from."
   categories:
-    - title: Services & Process
+    - title: "What I do"
       questions:
-        - label: What services do you offer?
+        - label: "What do you do?"
           content: |
-            I specialize in UX/UI design and front-end development. This includes user research, wireframing, interactive prototyping, creating intuitive user interfaces, building responsive websites and web applications (especially with Vue.js/Nuxt.js), and developing design systems. My goal is to create seamless digital experiences from concept to deployment.
-        - label: What is your design process like?
+            I'm a design engineer and full-stack developer. I take ideas from early conversations and rough sketches through UX, interface design, technical architecture, development, deployment and ongoing improvement. That broad view helps me make practical decisions without losing sight of the people who will use the finished product.
+        - label: "What kinds of products do you build?"
           content: |
-            My process is collaborative and iterative, typically involving stages like Discovery & Research, Ideation & Prototyping, User Testing, Visual Design, and close collaboration with development teams during implementation. I tailor the process based on project needs, always focusing on user-centered solutions.
-        - label: Do you work with startups?
+            I build bespoke business software, internal systems, member and client portals, reporting tools, directories and content-rich CMS websites. I particularly enjoy untangling complex workflows and turning scattered tools, spreadsheets or legacy systems into one clear, maintainable product.
+        - label: "Do you handle both design and development?"
           content: |
-            Absolutely! I enjoy working with startups to help shape their product vision and create user-friendly interfaces from the ground up. I can adapt my process to fit the fast-paced startup environment.
-    - title: Pricing & Timelines
+            Yes. I work across product thinking, UX and visual design as well as front-end and back-end engineering. Depending on the project, that can mean prototyping in Figma, planning data and system architecture, building interfaces and APIs, or managing infrastructure and deployment.
+        - label: "What technologies do you work with?"
+          content: |
+            My recent work centres on Laravel, Statamic, Vue, Nuxt and Tailwind CSS. I also work with tools such as Inertia, GraphQL, Typesense, AWS, Laravel Forge, Sentry and Figma. I choose technology around the problem rather than forcing every project into the same stack.
+    - title: "Working together"
       questions:
-        - label: How much does a project typically cost?
+        - label: "How can I work with you?"
           content: |
-            Project costs vary based on scope, complexity, features, and timeline. For comprehensive UX/UI design and front-end development projects, my engagements typically start around $5,000, with average projects ranging between $8,000 and $25,000. For consulting or specific design tasks, my day rate is $700.
-        - label: What are your payment terms?
+            Most of my client work happens through [You I](https://youi.design), the small digital product studio I run with my wife, Abby. I also have experience joining established teams as a senior JavaScript developer and technical partner. The best place to start is a conversation about the problem you are trying to solve.
+        - label: "Who do you usually work with?"
           content: |
-            I generally require a 40% deposit to schedule the project and begin work, with the remaining 60% due upon successful project completion and delivery. I accept payments via bank transfer and Stripe.
-        - label: How long does a typical project take?
+            Through You I, I work with established businesses, charities and membership organisations that need to replace outdated systems, improve difficult processes or create better digital services. I've worked directly with local and international clients as well as within larger in-house development teams.
+        - label: "Can you replace an old or legacy system?"
           content: |
-            Timelines depend heavily on the project's scope and complexity. Smaller projects might take 3-4 weeks, while larger, more involved projects can range from 2 to 4 months. I always provide a detailed timeline estimate after the initial discovery phase.
-        - label: Do you offer retainers or ongoing support?
+            Yes. Legacy replacement is about much more than rebuilding screens. I take time to understand existing workflows, data relationships, integrations, security requirements and the people who rely on the system. For Eccles Fisher, we replaced a nearly 40-year-old desktop application while preserving decades of publishing data and moving hundreds of users to a secure web platform.
+        - label: "Do you provide ongoing support?"
           content: |
-            Yes, for clients needing ongoing design support, feature development, or maintenance, I offer monthly retainer options tailored to specific needs. Let's discuss if this is something you're interested in.
-    - title: About Me
+            Yes. I believe software needs care after launch, so ongoing monitoring, maintenance, performance work and feature development are a normal part of many long-term client relationships. Support arrangements are tailored to the product and the level of help required.
+    - title: "About me"
       questions:
-        - label: What do you enjoy most about your work?
+        - label: "Where are you based?"
           content: |
-            I love the challenge of solving complex problems through design and technology. It's incredibly rewarding to see people interact with something I've created and find it genuinely useful and easy to navigate. Bridging the gap between user needs and technical possibilities is what truly excites me.
-        - label: What are your hobbies outside of work?
+            I'm based in Hitchin, Hertfordshire, in the UK. I work both remotely and in person, and have collaborated with clients and teams across the UK, Europe and North America.
+        - label: "How did you get into software development?"
           content: |
-            When I'm not designing or coding, I enjoy exploring Boston's neighborhoods, trying out new coffee shops, and hiking in the nearby reservations. I'm also passionate about photography and occasionally contribute to open-source projects.
+            I'm a self-taught developer. After studying Music Production, I spent several years running a recording studio and touring internationally as a live sound engineer. I began freelancing as a web developer in 2012, co-founded You I in 2014 and have been designing and building software ever since.
+        - label: "What matters to you in your work?"
+          content: |
+            Simplicity, usefulness and longevity. I like getting close to a problem, communicating clearly and making complex systems feel calm and intuitive. I care equally about clean interfaces, maintainable code and the long-term relationship behind a project.
+        - label: "What do you do outside work?"
+          content: |
+            I'm a father, husband and musician. Music came before software and remains an important part of who I am, whether I'm playing, recording or simply listening.
