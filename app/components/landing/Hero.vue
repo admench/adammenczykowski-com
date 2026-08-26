@@ -50,34 +50,12 @@ defineProps<{
           delay: 0.5
         }"
       >
-        <div
-          v-if="page.hero.links"
-          class="flex items-center gap-2"
-        >
+        <div class="flex flex-wrap items-center justify-center gap-2">
           <UButton
-            v-if="false"
-            v-bind="page.hero.links[0]"
+            v-for="link in page.hero.links"
+            :key="link.label"
+            v-bind="link"
           />
-          <UButton
-            :color="global.available ? 'success' : 'error'"
-            variant="ghost"
-            class="gap-2"
-            :to="global.available ? global.meetingLink : ''"
-            :label="global.available ? 'Available for new projects' : 'Not available at the moment'"
-          >
-            <template #leading>
-              <span class="relative flex size-2">
-                <span
-                  class="absolute inline-flex size-full rounded-full opacity-75"
-                  :class="global.available ? 'bg-success animate-ping' : 'bg-error'"
-                />
-                <span
-                  class="relative inline-flex size-2 scale-90 rounded-full"
-                  :class="global.available ? 'bg-success' : 'bg-error'"
-                />
-              </span>
-            </template>
-          </UButton>
         </div>
       </Motion>
 

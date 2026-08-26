@@ -1,13 +1,17 @@
 seo:
-  title: "Design Engineer & Full-Stack Developer"
-  description: "Adam Menczykowski is a design engineer and full-stack developer in Hitchin, UK, building thoughtful websites, platforms and bespoke software for the web."
-title: "Hey, I'm Adam, a design engineer and full-stack developer"
-description: "I turn complex ideas into simple, useful software for the web. Based in Hitchin, UK."
+  title: "Design Engineer, Developer & Musician"
+  description: "Adam Menczykowski is a musician-turned-design engineer and developer exploring craft, technology and how to make complicated things understandable."
+title: "I make complicated things understandable"
+description: "I'm Adam, a musician-turned-design engineer exploring craft, technology and reinvention. I build useful software, share what I learn and stay curious about what comes next."
 hero:
   links:
-    - label: "Browse my work"
+    - label: "Read my story"
+      to: "/about/"
+      color: "neutral"
+    - label: "Explore my work"
       to: "/projects"
       color: "neutral"
+      variant: "ghost"
   images: []
 about:
   title: "About me"
