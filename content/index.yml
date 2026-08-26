@@ -50,14 +50,20 @@ testimonials:
     author:
       name: "Catherine Eccles"
       description: "Eccles Fisher Associates"
+      avatar:
+        src: '/testimonials/catherine-eccles.webp'
   - quote: "Adam and Abby understood exactly what we wanted to achieve and brought lots of ideas about how best to get there. They're well organised, transparent and collaborative. I can't recommend You I enough."
     author:
       name: "Sam Joyce"
       description: "CEO, Mint Consulting"
+      avatar:
+        src: '/testimonials/sam-joyce.webp'
   - quote: "Working with Adam was an absolute game-changer for our business. His innovative solutions and technical proficiency were key factors in our growth and long-term success."
     author:
       name: "Victor Saly"
       description: "Head of Software Development, Storm Technologies"
+      avatar:
+        src: '/testimonials/victor-saly.webp'
 blog:
   title: "Latest writing"
   description: "Notes on design, development and building software that lasts."
