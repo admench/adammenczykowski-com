@@ -4,6 +4,11 @@ export const navLinks: NavigationMenuItem[] = [{
   label: 'Home',
   icon: 'i-lucide-home',
   to: '/'
+},
+{
+  label: 'About',
+  icon: 'i-lucide-user',
+  to: '/about'
 }]
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -17,11 +22,6 @@ const oldLinks: NavigationMenuItem[] = [
     label: 'Projects',
     icon: 'i-lucide-folder',
     to: '/projects'
-  },
-  {
-    label: 'About',
-    icon: 'i-lucide-user',
-    to: '/about'
   },
   {
     label: 'Blog',

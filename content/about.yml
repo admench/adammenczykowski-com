@@ -1,27 +1,58 @@
-title: About Me
-description: Learn more about my journey as a Boston-based UX/UI Designer & Front-End Developer, my design philosophy, and my passion for crafting intuitive digital experiences.
+title: "About Adam"
+description: "I'm a design engineer and full-stack developer who turns complex ideas into thoughtful, useful software for the web."
 content: |
-  Hi, I'm **Emma Thompson**, a UX/UI Designer and Front-End Developer based right here in Boston. For the past six years, I've been immersed in the world of digital product creation, focusing on building experiences that are not just functional, but genuinely intuitive and engaging for users.
+  Hi, I'm **Adam Menczykowski**. I'm a design engineer, full-stack developer and Technical Director based in Hitchin, Hertfordshire. For more than 15 years, I've been helping businesses and organisations turn difficult problems into digital products that feel clear, useful and built to last.
 
-  My path started at **Boston University**, where I earned a degree in Interactive Design. It was there I discovered my dual passion for the visual language of design and the logical puzzle of code. Since then, I've honed my skills in both areas, believing that the best digital products are born from a deep understanding of both aesthetics and implementation.
+  I work across the whole product: understanding the problem, shaping the user experience, designing the interface, planning the architecture and writing the code that brings it all together. That range is deliberate: the best decisions rarely belong to design or engineering alone, and I like being able to follow an idea from the first sketch through to a reliable product in people's hands.
 
-  ### My Design Philosophy
+  ### Building You I
 
-  My design philosophy is rooted in **empathy** and **problem-solving**. I believe great design starts with understanding the 'why' – the user's needs, motivations, and pain points. I use research, iterative prototyping (often with tools like Figma), and user testing to ensure the solutions I build are truly effective.
+  I'm the Technical Director and Co-Founder of [You I](https://youi.design), the small digital product studio I run with my wife, Abby. We work with established businesses, charities and membership organisations that have outgrown their current setup and need something designed around the way they actually work.
 
-  I strive to create interfaces that feel effortless, where functionality and beauty work hand-in-hand. Whether I'm crafting pixel-perfect UIs or writing clean Vue.js/Nuxt.js code, my focus is always on creating value for the end-user.
+  Since 2014, I've led the design and development of more than 50 CMS websites and around 10 full-stack applications. The work has included bespoke business systems, member and client portals, directories, reporting tools, e-commerce integrations and content-rich websites. Some projects begin with a new idea; others involve carefully replacing software that has been essential to an organisation for decades.
 
-  ### What Drives Me
+  Being a small team means I stay close to every stage of a project. I can be discussing goals with a client in the morning, sketching a workflow before lunch and deep in Laravel or Vue by the afternoon. I enjoy that variety, but more importantly, it means fewer assumptions are lost between the people defining a problem and the person building its solution.
 
-  What keeps me excited about this work is the constant learning and the challenge of translating complex ideas into simple, elegant solutions. There's nothing more rewarding than seeing a design come to life and knowing it's making someone's digital interaction easier or more enjoyable.
+  I didn't start You I simply to build websites. I wanted to build solutions that help people move forward, and to do it in a way that feels personal, honest and grounded.
 
-  ### Beyond the Screen
+  ### Design and engineering
 
-  When I'm not designing or coding, you might find me exploring Boston's latest coffee shops, hiking nearby trails, or occasionally contributing to open-source projects.
+  My work sits between product design and software engineering. I care about typography, spacing and the small interaction details that make an interface feel effortless, but I care just as much about the data model, deployment process, monitoring and maintainability behind it.
 
-  Thanks for stopping by. Feel free to browse my [projects](/projects) or [get in touch](/#contact) if you'd like to collaborate!
-images:
-  - src: https://images.unsplash.com/photo-1744877478622-a78c7a3336f6?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: My coffee workspace
-  - src: https://images.unsplash.com/photo-1744429523595-2c06b8611242?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: My trip to Tokyo
+  My recent projects are usually built with **Laravel, Statamic, Vue, Nuxt and Tailwind CSS**, alongside tools such as Inertia, GraphQL, Typesense, AWS, Laravel Forge, Sentry and Figma. The stack changes when the problem calls for it. Technology is a means to an end, and I would rather choose a dependable, understandable solution than follow a trend for its own sake.
+
+  One project might involve migrating 130,000 publishing records from a nearly 40-year-old desktop system into a secure Laravel platform. Another might involve creating a design system and hundreds of components for an enterprise application spanning sales, warehousing, finance and logistics. The details vary, but the goal is consistent: make something complex feel simple without pretending the complexity is not there.
+
+  ### Working with teams
+
+  Alongside You I, I have worked with Storm Technologies as a Senior JavaScript Developer since 2020. There, I helped establish the front-end architecture for a large internal ERP system, built a component-led design system and worked with stakeholders across several areas of the business.
+
+  That experience reinforced something I already believed: communication is part of the engineering work. Good software depends on asking the right questions, making decisions visible and helping technical and non-technical people develop a shared understanding of what is being built and why.
+
+  I have worked independently, led client projects, collaborated inside larger development teams and mentored a junior developer. In every setting, I try to bring the same qualities: curiosity, patience, attention to detail and a willingness to take responsibility for the wider outcome rather than only my part of the codebase.
+
+  ### From music to software
+
+  My route into software was not conventional. I studied Music Production at university, ran a recording studio in Letchworth and spent six years working as a studio engineer, producer and live sound monitor engineer.
+
+  Touring took me around the world with artists including Phoenix, Get Cape. Wear Cape. Fly. and Good Shoes. Mixing hundreds of live shows taught me to listen carefully, stay calm under pressure and solve problems quickly when there is no option to pause and try again tomorrow. Running a studio taught me how to work directly with clients and translate a creative idea into something real.
+
+  I began teaching myself web development and started freelancing in 2012. The tools were different, but much of what drew me to music was there too: a mix of craft, technology, collaboration and detail, all working together to create an experience for someone else.
+
+  ### How I approach the work
+
+  I believe useful software starts with understanding how people already work. Before deciding what to build, I want to know where time is being lost, what knowledge is hidden in spreadsheets or ageing systems, which exceptions matter and what success would genuinely change for the people involved.
+
+  From there, my approach is practical and iterative: make the problem visible, reduce unnecessary complexity, test assumptions early and build a strong foundation for what comes next. Launch is not the finish line. I monitor the products I build, support them over time and keep improving them as the organisation and its needs evolve.
+
+  The principles I return to are simple:
+
+  - **Make it useful.** A product should solve a real problem, not merely look impressive.
+  - **Make it understandable.** Clear interfaces, clear code and clear communication all matter.
+  - **Make it durable.** Good decisions should support the product beyond its first release.
+  - **Stay close to the people using it.** Their experience is the measure that counts.
+
+  ### Away from the screen
+
+  I'm also a father, husband and musician. Music is still an important part of my life, even though most of my working days now involve interfaces, architecture and code rather than stages and recording desks. I'm based in Hitchin and work with people both locally and internationally. If you'd like to see what I've been building, take a look at my [projects](/projects). If you have a complex digital problem you want to make simpler, [send me an email](mailto:adam@youi.design) or start a conversation with us at [You I](https://youi.design/contact).
+images: []
