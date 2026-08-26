@@ -8,15 +8,11 @@ hero:
     - label: "Read my story"
       to: "/about/"
       color: "neutral"
-    - label: "Explore my work"
-      to: "/projects"
-      color: "neutral"
-      variant: "ghost"
   images: []
 about:
-  title: "About me"
+  title: "Craft, curiosity and making things useful"
   description: |
-    I'm a self-taught developer with more than 15 years of experience designing and building digital products. As Technical Director and Co-Founder of You I, I work across strategy, UX, architecture, back-end and front-end development to create software that feels straightforward, even when the problem behind it is complex. I'm happiest combining clean design, thoughtful communication and solid engineering to build things that work beautifully and last.
+    Before I wrote software, I made records and mixed live shows around the world. That first career taught me to listen closely, stay calm when things go wrong and care about the details people feel even when they cannot see them. Today, I bring that same mindset to design and engineering. I'm a self-taught developer, co-founder, husband, father and musician, interested in how craft, technology and clear thinking can turn complexity into something useful. This is where I share what I'm building, what I'm learning and the ideas connecting those parts of my life.
 experience:
   title: "Work experience"
   description: "From live music and studio production to full-stack product development."
