@@ -18,6 +18,9 @@ pinnedLinks:
     to: "https://www.instagram.com/admench/"
     icon: "ant-design:instagram-filled"
 otherLinks:
+  - label: "Sound engineer lesson to Software"
+    to: "https://youtube.com/shorts/OBltpxpqs1Q?feature=share"
+    icon: "ant-design:youtube-filled"
   - label: "July 2026 Spotify Playlist"
     to: "https://open.spotify.com/playlist/0XAZgPsehkXQ8qW2sqehdS?si=ea87e7042e254b46"
     icon: "ant-design:spotify-filled"
