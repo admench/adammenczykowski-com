@@ -6,7 +6,6 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/content',
     '@vueuse/nuxt',
-    'nuxt-og-image',
     'motion-v/nuxt'
   ],
 
@@ -27,9 +26,10 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       routes: [
-        '/'
+        '/',
+        '/about/'
       ],
-      crawlLinks: true
+      crawlLinks: false
     }
   },
 
@@ -42,7 +42,10 @@ export default defineNuxtConfig({
     }
   },
 
-  ogImage: {
-    zeroRuntime: true
+  fonts: {
+    families: [
+      { name: 'Public Sans', provider: 'none' },
+      { name: 'Instrument Serif', provider: 'none' }
+    ]
   }
 })

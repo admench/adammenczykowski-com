@@ -26,7 +26,6 @@ useSeoMeta({
   ogDescription: description
 })
 
-defineOgImage('Portfolio', { title, description })
 </script>
 
 <template>

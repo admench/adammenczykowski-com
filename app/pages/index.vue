@@ -10,12 +10,28 @@ if (!page.value) {
   })
 }
 
+const { global } = useAppConfig()
+const title = page.value.seo.title || page.value.title
+const description = page.value.seo.description || page.value.description
+const canonicalUrl = `${global.siteUrl}/`
+
+useHead({
+  link: [{ rel: 'canonical', href: canonicalUrl }]
+})
+
 useSeoMeta({
-  title: page.value?.seo.title || page.value?.title,
-  ogTitle: page.value?.seo.title || page.value?.title,
-  description: page.value?.seo.description || page.value?.description,
-  ogDescription: page.value?.seo.description || page.value?.description,
-  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/portfolio-light.png'
+  title,
+  description,
+  ogTitle: `${title} | Adam Menczykowski`,
+  ogDescription: description,
+  ogUrl: canonicalUrl,
+  ogLocale: 'en_GB',
+  ogImage: `${global.siteUrl}${global.picture.light}`,
+  ogImageAlt: 'Adam Menczykowski, design engineer and full-stack developer',
+  twitterTitle: `${title} | Adam Menczykowski`,
+  twitterDescription: description,
+  twitterImage: `${global.siteUrl}${global.picture.light}`,
+  twitterImageAlt: 'Adam Menczykowski, design engineer and full-stack developer'
 })
 </script>
 

@@ -1,5 +1,5 @@
 seo:
-  title: "Adam Menczykowski - Design Engineer & Full-Stack Developer"
+  title: "Design Engineer & Full-Stack Developer"
   description: "Adam Menczykowski is a design engineer and full-stack developer in Hitchin, UK, building thoughtful websites, platforms and bespoke software for the web."
 title: "Hey, I'm Adam, a design engineer and full-stack developer"
 description: "I turn complex ideas into simple, useful software for the web. Based in Hitchin, UK."
@@ -36,14 +36,14 @@ experience:
       company:
         name: "Independent"
         logo: "i-lucide-code-2"
-        url: "https://adammenczykowski.com/curriculum-vitae"
+        url: "/about/#from-music-to-software"
         color: "#777777"
     - position: "Live Sound & Studio Engineer"
       date: "2006 - 2012"
       company:
         name: "Music industry"
         logo: "i-lucide-music-2"
-        url: "https://adammenczykowski.com/curriculum-vitae"
+        url: "/about/#from-music-to-software"
         color: "#777777"
 testimonials:
   - quote: "Adam's intelligence and patience were particularly striking; nothing was impossible. The entirely bespoke system has revolutionised our workflows and is intuitive and easy to train new users on."
@@ -52,18 +52,21 @@ testimonials:
       description: "Eccles Fisher Associates"
       avatar:
         src: '/testimonials/catherine-eccles.webp'
+        alt: 'Catherine Eccles'
   - quote: "Adam and Abby understood exactly what we wanted to achieve and brought lots of ideas about how best to get there. They're well organised, transparent and collaborative. I can't recommend You I enough."
     author:
       name: "Sam Joyce"
       description: "CEO, Mint Consulting"
       avatar:
         src: '/testimonials/sam-joyce.webp'
+        alt: 'Sam Joyce'
   - quote: "Working with Adam was an absolute game-changer for our business. His innovative solutions and technical proficiency were key factors in our growth and long-term success."
     author:
       name: "Victor Saly"
       description: "Head of Software Development, Storm Technologies"
       avatar:
         src: '/testimonials/victor-saly.webp'
+        alt: 'Victor Saly'
 blog:
   title: "Latest writing"
   description: "Notes on design, development and building software that lasts."

@@ -14,15 +14,38 @@ const { global } = useAppConfig()
 
 const title = page.value?.seo?.title || page.value?.title
 const description = page.value?.seo?.description || page.value?.description
+const canonicalUrl = `${global.siteUrl}/about/`
+
+useHead({
+  link: [{ rel: 'canonical', href: canonicalUrl }],
+  script: [{
+    key: 'profile-page-jsonld',
+    type: 'application/ld+json',
+    innerHTML: JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'ProfilePage',
+      '@id': `${canonicalUrl}#profile-page`,
+      'url': canonicalUrl,
+      'name': 'About Adam Menczykowski',
+      'mainEntity': { '@id': `${global.siteUrl}/#person` }
+    })
+  }]
+})
 
 useSeoMeta({
   title,
-  ogTitle: title,
   description,
-  ogDescription: description
+  ogTitle: `${title} | Adam Menczykowski`,
+  ogDescription: description,
+  ogUrl: canonicalUrl,
+  ogLocale: 'en_GB',
+  ogImage: `${global.siteUrl}${global.picture.light}`,
+  ogImageAlt: 'About Adam Menczykowski',
+  twitterTitle: `${title} | Adam Menczykowski`,
+  twitterDescription: description,
+  twitterImage: `${global.siteUrl}${global.picture.light}`,
+  twitterImageAlt: 'About Adam Menczykowski'
 })
-
-defineOgImage('Portfolio', { title, description })
 </script>
 
 <template>
@@ -52,9 +75,11 @@ defineOgImage('Portfolio', { title, description })
     >
       <MDC
         :value="page.content"
-        unwrap="p"
       />
-      <div class="flex flex-row justify-center items-center py-10 -space-x-8">
+      <div
+        v-if="page.images?.length"
+        class="flex flex-row justify-center items-center py-10 -space-x-8"
+      >
         <PolaroidItem
           v-for="(image, index) in page.images"
           :key="index"

@@ -45,7 +45,7 @@ function getIcon(logo: string) {
           <ULink
             class="flex flex-col md:flex-row items-start md:items-center gap-2"
             :to="experience.company.url"
-            target="_blank"
+            :target="experience.company.url.startsWith('http') ? '_blank' : undefined"
           >
             <span class="text-sm">
               {{ experience.position }}

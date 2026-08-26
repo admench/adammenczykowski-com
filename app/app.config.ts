@@ -1,9 +1,10 @@
 export default defineAppConfig({
   global: {
+    siteUrl: 'https://adammenczykowski.com',
     picture: {
       dark: '/adam-menczykowski-croatia-beer.webp',
       light: '/adam-menczykowski-croatia-beer.webp',
-      alt: 'My profile picture'
+      alt: 'Portrait of Adam Menczykowski'
     },
     meetingLink: 'mailto:adam@youi.design',
     email: 'adam@youi.design',

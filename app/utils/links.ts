@@ -8,7 +8,7 @@ export const navLinks: NavigationMenuItem[] = [{
 {
   label: 'About',
   icon: 'i-lucide-user',
-  to: '/about'
+  to: '/about/'
 }]
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars

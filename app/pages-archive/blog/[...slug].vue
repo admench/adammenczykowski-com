@@ -26,12 +26,6 @@ useSeoMeta({
 
 if (page.value.image) {
   useSeoMeta({ ogImage: page.value.image })
-} else {
-  defineOgImage('Portfolio', {
-    title,
-    description,
-    headline: 'Blog'
-  })
 }
 
 const articleLink = computed(() => `${window?.location}`)

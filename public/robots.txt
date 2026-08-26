@@ -1,1 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /__nuxt_content/
+Disallow: /*.sql$
 
+Sitemap: https://adammenczykowski.com/sitemap.xml
