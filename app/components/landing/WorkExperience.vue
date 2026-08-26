@@ -1,9 +1,21 @@
 <script setup lang="ts">
 import type { IndexCollectionItem } from '@nuxt/content'
+import YouIFavicon from '~/components/icons/YouIFavicon.vue'
+import StormFavicon from '~/components/icons/StormFavicon.vue'
 
 defineProps<{
   page: IndexCollectionItem
 }>()
+
+function getIcon(logo: string) {
+  if (logo === 'icons/YouIFavicon') {
+    return YouIFavicon
+  }
+  if (logo === 'icons/StormFavicon') {
+    return StormFavicon
+  }
+  return logo
+}
 </script>
 
 <template>
@@ -31,7 +43,7 @@ defineProps<{
           </p>
           <USeparator />
           <ULink
-            class="flex items-center gap-1"
+            class="flex items-baseline gap-1"
             :to="experience.company.url"
             target="_blank"
           >
@@ -43,7 +55,10 @@ defineProps<{
               :style="{ color: experience.company.color }"
             >
               <span class="font-medium">{{ experience.company.name }}</span>
-              <UIcon :name="experience.company.logo" />
+              <UIcon
+                :name="getIcon(experience.company.logo)"
+                class="size-6"
+              />
             </div>
           </ULink>
         </Motion>

@@ -35,27 +35,32 @@ about:
 experience:
   title: Work Experience
   items:
-    - position: "Brand Designer at"
-      date: "2023 - Present"
+    - position: "Director and Lead Developer"
+      date: "2014 - Present"
       company:
-        name: Nuxt
-        logo: "i-simple-icons-nuxtdotjs"
+        name: 'You I'
+        logo: "icons/YouIFavicon"
         url: "https://nuxt.com"
         color: "#00DC82"
-    - position: "Assets Designer at"
-      date: "2022 - 2023"
+    - position: "Senior Javascript Developer"
+      date: "2020 - 2024"
       company:
-        name: Raycast
-        logo: "i-simple-icons-raycast"
+        name: 'Storm Technologies'
+        logo: "icons/StormFavicon"
         url: "https://raycast.com"
         color: "#FF6363"
-    - position: "Senior UX/UI Designer at"
-      date: "2020 - 2021"
+    - position: "Junior web developer"
+      date: "2012 - 2014"
       company:
-        name: Linear
-        logo: "i-simple-icons-linear"
+        name: Freelance
         url: "https://linear.app"
         color: "#5E6AD2"
+    - position: "Live sound - monitor engineer"
+      date: "2006 - 2012"
+      company:
+        name: 'Bands on tour'
+        url: "https://linear.app"
+        color: "#f73b9e"
 testimonials:
   - quote: "Emma's approach to UX design completely transformed our product. She has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our customer support tickets by 40% and increased conversion rates across all key metrics."
     author:
