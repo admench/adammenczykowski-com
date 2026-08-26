@@ -1,7 +1,9 @@
 <script setup lang="ts">
 const colorMode = useColorMode()
+const { global } = useAppConfig()
 
 const color = computed(() => colorMode.value === 'dark' ? '#020618' : 'white')
+const personId = `${global.siteUrl}/#person`
 
 useHead({
   meta: [
@@ -10,35 +12,63 @@ useHead({
     { key: 'theme-color', name: 'theme-color', content: color }
   ],
   link: [
-    { rel: 'icon', href: '/favicon.ico' }
+    { rel: 'icon', type: 'image/png', href: '/favicon.png' }
   ],
+  script: [{
+    key: 'identity-jsonld',
+    type: 'application/ld+json',
+    innerHTML: JSON.stringify({
+      '@context': 'https://schema.org',
+      '@graph': [{
+        '@type': 'Person',
+        '@id': personId,
+        'name': 'Adam Menczykowski',
+        'url': global.siteUrl,
+        'image': `${global.siteUrl}${global.picture.light}`,
+        'jobTitle': ['Design Engineer', 'Full-Stack Developer', 'Technical Director'],
+        'homeLocation': {
+          '@type': 'Place',
+          'name': 'Hitchin, Hertfordshire, UK'
+        },
+        'worksFor': {
+          '@type': 'Organization',
+          'name': 'You I Limited',
+          'url': 'https://youi.design'
+        },
+        'sameAs': [
+          'https://github.com/admench',
+          'https://x.com/adammench'
+        ],
+        'knowsAbout': [
+          'Product design',
+          'Web application development',
+          'Laravel',
+          'Statamic',
+          'Vue.js',
+          'Nuxt'
+        ]
+      }, {
+        '@type': 'WebSite',
+        '@id': `${global.siteUrl}/#website`,
+        'url': global.siteUrl,
+        'name': 'Adam Menczykowski',
+        'inLanguage': 'en-GB',
+        'publisher': { '@id': personId }
+      }]
+    })
+  }],
   htmlAttrs: {
-    lang: 'en'
+    lang: 'en-GB'
   }
 })
 
 useSeoMeta({
-  titleTemplate: '%s - Nuxt Portfolio Template',
-  twitterCard: 'summary_large_image'
+  titleTemplate: title => title ? `${title} | Adam Menczykowski` : 'Adam Menczykowski',
+  ogSiteName: 'Adam Menczykowski',
+  ogType: 'website',
+  twitterCard: 'summary_large_image',
+  twitterCreator: '@adammench'
 })
-
-const [{ data: navigation }, { data: files }] = await Promise.all([
-  useAsyncData('navigation', () => {
-    return Promise.all([
-      queryCollectionNavigation('blog')
-    ])
-  }, {
-    transform: data => data.flat()
-  }),
-  useLazyAsyncData('search', () => {
-    return Promise.all([
-      queryCollectionSearchSections('blog')
-    ])
-  }, {
-    server: false,
-    transform: data => data.flat()
-  })
-])
 </script>
 
 <template>
@@ -48,14 +78,5 @@ const [{ data: navigation }, { data: files }] = await Promise.all([
         <NuxtPage />
       </UMain>
     </NuxtLayout>
-
-    <ClientOnly>
-      <LazyUContentSearch
-        :files="files"
-        :navigation="navigation"
-        :links="navLinks"
-        :fuse="{ resultLimit: 42 }"
-      />
-    </ClientOnly>
   </UApp>
 </template>
