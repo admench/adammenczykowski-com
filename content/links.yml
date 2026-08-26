@@ -1,0 +1,23 @@
+seo:
+  title: "Links"
+  description: "Find Adam Menczykowski around the web."
+name: "Adam Menczykowski"
+handle: "@adammench"
+bio: "Musician-turned design engineer exploring craft, technology and how to make complicated things understandable."
+avatar:
+  src: "/adam-menczykowski-croatia-beer.webp"
+  alt: "Portrait of Adam Menczykowski"
+pinnedLinks:
+  - label: "You I Ltd"
+    to: "https://youi.design"
+    icon: "akar-icons:circle"
+  - label: "Adam on X"
+    to: "https://x.com/adammench"
+    icon: "bxl:twitter-x"
+otherLinks:
+  - label: "DnB Spotify Playlist"
+    to: "https://open.spotify.com/playlist/4ExmRsqVdZ751iGCUeyhlz"
+    icon: "ant-design:spotify-filled"
+  - label: "May 2025 Spotify Playlist"
+    to: "https://open.spotify.com/playlist/5cWWd28ZHt9F8GBIWSiuju"
+    icon: "ant-design:spotify-filled"

@@ -20,6 +20,12 @@ const createImageSchema = () => z.object({
   alt: z.string()
 })
 
+const createLinkSchema = () => z.object({
+  label: z.string(),
+  to: z.string().url(),
+  icon: z.string().editor({ input: 'icon' }).optional()
+})
+
 const createAuthorSchema = () => z.object({
   name: z.string(),
   description: z.string().optional(),
@@ -71,6 +77,22 @@ export default defineContentConfig({
               )
             }))
         })
+      })
+    }),
+    links: defineCollection({
+      type: 'data',
+      source: 'links.yml',
+      schema: z.object({
+        seo: z.object({
+          title: z.string(),
+          description: z.string()
+        }),
+        name: z.string(),
+        handle: z.string(),
+        bio: z.string(),
+        avatar: createImageSchema(),
+        pinnedLinks: z.array(createLinkSchema()),
+        otherLinks: z.array(createLinkSchema())
       })
     }),
     projects: defineCollection({

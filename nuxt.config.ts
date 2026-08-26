@@ -27,7 +27,8 @@ export default defineNuxtConfig({
     prerender: {
       routes: [
         '/',
-        '/about/'
+        '/about/',
+        '/links'
       ],
       crawlLinks: false
     }
