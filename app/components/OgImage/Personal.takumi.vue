@@ -51,7 +51,7 @@ defineProps<{
 
       <div
         v-if="cta"
-        class="flex self-start items-center gap-3 rounded-full border border-white/30 bg-white/10 px-5 py-3 text-xl font-medium text-white"
+        class="flex self-start items-center gap-3 rounded-full border border-white/30 bg-white/10 px-5 py-3 text-xl font-medium text-white mb-12"
       >
         <span>{{ cta }}</span>
         <span aria-hidden="true">→</span>
