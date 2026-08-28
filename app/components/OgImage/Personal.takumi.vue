@@ -25,7 +25,7 @@ defineProps<{
       class="absolute inset-0"
       :style="{
         background: image
-          ? 'linear-gradient(90deg, rgba(10, 10, 10, 0.98) 0%, rgba(10, 10, 10, 0.9) 48%, rgba(10, 10, 10, 0.28) 100%)'
+          ? 'linear-gradient(90deg, rgba(10, 10, 10, 0.98) 0%, rgba(10, 10, 10, 0.9) 48%, rgba(10, 10, 10, 0.1) 100%)'
           : 'radial-gradient(circle at 82% 18%, #374151 0%, #171717 35%, #0a0a0a 72%)'
       }"
     />
