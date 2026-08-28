@@ -21,6 +21,7 @@ const canonicalUrl = `${global.siteUrl}/links`
 usePageOgImage({
   title: page.value.seo.title,
   description: page.value.seo.description,
+  cta: 'Find Adam online',
   image: page.value.seo.image
 })
 

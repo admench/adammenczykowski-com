@@ -18,6 +18,7 @@ const canonicalUrl = `${global.siteUrl}/`
 usePageOgImage({
   title,
   description,
+  cta: 'Read more',
   image: page.value.seo.image
 })
 

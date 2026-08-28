@@ -19,6 +19,7 @@ const canonicalUrl = `${global.siteUrl}/about/`
 usePageOgImage({
   title,
   description,
+  cta: 'Read Adam\'s story',
   image: page.value.seo.image
 })
 
