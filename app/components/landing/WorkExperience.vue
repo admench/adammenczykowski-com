@@ -22,7 +22,7 @@ function getIcon(logo: string) {
   <UPageSection
     :title="page.experience.title"
     :ui="{
-      container: 'gap-4 sm:gap-4',
+      container: 'pt-0! gap-4 sm:gap-4',
       title: 'text-left text-xl sm:text-xl lg:text-2xl font-medium',
       description: 'mt-2'
     }"
