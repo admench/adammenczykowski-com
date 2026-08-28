@@ -46,7 +46,7 @@ useSeoMeta({
     />
 
     <UPageSection :ui="{ container: 'pt-0!' }">
-      <div class="divide-y divide-default">
+      <div class="space-y-8">
         <Motion
           v-for="(video, index) in videos"
           :key="video.path"
@@ -55,7 +55,7 @@ useSeoMeta({
           :transition="{ delay: 0.2 * index }"
           :in-view-options="{ once: true }"
         >
-          <article class="grid items-center gap-6 py-10 first:pt-0 md:grid-cols-2 lg:gap-12">
+          <article class="grid items-center gap-6 first:pt-0 md:grid-cols-3 lg:gap-12">
             <LiteYouTubePlayer
               :video="video.video"
               :title="video.title"
@@ -63,11 +63,11 @@ useSeoMeta({
               :aspect-ratio="video.aspectRatio"
             />
 
-            <div class="flex flex-col items-start gap-3">
+            <div class="flex flex-col items-start gap-3 md:col-span-2">
               <h2 class="text-2xl font-medium sm:text-3xl">
                 <ULink
                   :to="video.path"
-                  class="hover:text-primary"
+                  class="text-neutral hover:text-primary"
                 >
                   {{ video.title }}
                 </ULink>
