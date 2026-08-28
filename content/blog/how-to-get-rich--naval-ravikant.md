@@ -1,4 +1,7 @@
 ---
+seo:
+  image:
+    src: /blog/how-to-get-rich--naval-ravikant.png
 title: Wisdom series - How to get rich (without getting lucky) - Naval Ravikant
 description: Naval Ravikant is a self-taught programmer and a self-taught entrepreneur. His message to others resonates with me because of its simplicity and effectiveness.
 date: 2022-08-26
