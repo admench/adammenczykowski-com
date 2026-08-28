@@ -18,6 +18,12 @@ if (!page.value) {
 const { global } = useAppConfig()
 const canonicalUrl = `${global.siteUrl}/links`
 
+usePageOgImage({
+  title: page.value.seo.title,
+  description: page.value.seo.description,
+  image: page.value.seo.image
+})
+
 useHead({
   link: [{ rel: 'canonical', href: canonicalUrl }]
 })
@@ -29,12 +35,8 @@ useSeoMeta({
   ogDescription: page.value.seo.description,
   ogUrl: canonicalUrl,
   ogLocale: 'en_GB',
-  ogImage: `${global.siteUrl}${page.value.avatar.src}`,
-  ogImageAlt: page.value.avatar.alt,
   twitterTitle: `${page.value.seo.title} | Adam Menczykowski`,
-  twitterDescription: page.value.seo.description,
-  twitterImage: `${global.siteUrl}${page.value.avatar.src}`,
-  twitterImageAlt: page.value.avatar.alt
+  twitterDescription: page.value.seo.description
 })
 </script>
 

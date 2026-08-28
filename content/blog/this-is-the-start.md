@@ -25,7 +25,7 @@ Right now, on August 9th 2019, I'm located in Hitchin, UK. I run a web developme
 
 ![Adam and Saloni](/blog/adam-and-saloni.jpg)
 
-That's [Saloni](http://www.sallearnstocode.co.uk/), who works as a freelancer currently, taking on web projects.
+That's Saloni, who works as a freelancer currently, taking on web projects.
 
 I'm gonna stop there, and say goodbye for now!
 
