@@ -31,8 +31,6 @@ defineProps<{
       }"
     />
 
-    <div class="absolute left-0 top-0 h-full w-2 bg-white" />
-
     <div class="relative flex flex-1 flex-col justify-between px-20 py-16">
       <div class="flex items-center gap-4 text-3xl font-medium text-neutral-300">
         <span>Adam Menczykowski</span>
