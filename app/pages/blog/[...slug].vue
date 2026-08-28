@@ -66,7 +66,7 @@ const formatDate = (dateString: string) => {
             v-if="page.image"
             :src="page.image"
             :alt="page.title"
-            class="rounded-lg w-full h-[300px] object-cover object-center"
+            class="rounded-lg w-full aspect-video object-cover object-center"
           />
           <h1 class="text-4xl text-center font-medium max-w-3xl mx-auto mt-4">
             {{ page.title }}

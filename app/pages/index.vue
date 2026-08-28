@@ -15,6 +15,12 @@ const title = page.value.seo.title || page.value.title
 const description = page.value.seo.description || page.value.description
 const canonicalUrl = `${global.siteUrl}/`
 
+usePageOgImage({
+  title,
+  description,
+  image: page.value.seo.image
+})
+
 useHead({
   link: [{ rel: 'canonical', href: canonicalUrl }]
 })
@@ -26,28 +32,19 @@ useSeoMeta({
   ogDescription: description,
   ogUrl: canonicalUrl,
   ogLocale: 'en_GB',
-  ogImage: `${global.siteUrl}${global.picture.light}`,
-  ogImageAlt: 'Adam Menczykowski, design engineer and full-stack developer',
   twitterTitle: `${title} | Adam Menczykowski`,
-  twitterDescription: description,
-  twitterImage: `${global.siteUrl}${global.picture.light}`,
-  twitterImageAlt: 'Adam Menczykowski, design engineer and full-stack developer'
+  twitterDescription: description
 })
 </script>
 
 <template>
   <UPage v-if="page">
     <LandingHero :page />
-    <UPageSection
-      :ui="{
-        container: 'pt-0! lg:grid gap-8'
-      }"
-    >
-      <LandingAbout :page />
-      <LandingWorkExperience
-        :page
-      />
-    </UPageSection>
+    <LandingAbout :page />
+    <LandingBlog :page />
+    <LandingWorkExperience
+      :page
+    />
     <LandingTestimonials :page />
     <LandingFAQ :page />
   </UPage>
