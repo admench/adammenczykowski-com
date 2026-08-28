@@ -8,7 +8,6 @@ defineProps<{
 
 <template>
   <UPageSection
-    headline="About"
     :title="page.about.title"
     :description="page.about.description"
     :links="[{ label: 'Read more', to: '/about', variant: 'subtle' }]"
