@@ -28,9 +28,10 @@ export default defineNuxtConfig({
       routes: [
         '/',
         '/about/',
-        '/links'
+        '/links',
+        '/blog'
       ],
-      crawlLinks: false
+      crawlLinks: true
     }
   },
 
