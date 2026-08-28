@@ -7,9 +7,13 @@ title: "I make complicated things understandable"
 description: "I'm Adam, a musician-turned-design engineer exploring craft, technology and reinvention. I build useful software, share what I learn and stay curious about what comes next."
 hero:
   links:
-    - label: "Read my story"
+    - label: "My story"
       to: "/about/"
       color: "neutral"
+    - label: "Latest posts"
+      to: "/blog/"
+      color: "neutral"
+      variant: "outline"
   images: []
 about:
   title: "Craft, curiosity and making things useful"
