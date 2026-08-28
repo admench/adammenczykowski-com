@@ -23,6 +23,7 @@
     "@vueuse/nuxt": "^14.4.0",
     "motion-v": "^2.4.0",
     "nuxt": "^4.5.2",
+    "nuxt-og-image": "^6.7.8",
     "tailwindcss": "^4.3.3",
     "ufo": "^1.6.4"
   },

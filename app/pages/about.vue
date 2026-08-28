@@ -16,6 +16,12 @@ const title = page.value?.seo?.title || page.value?.title
 const description = page.value?.seo?.description || page.value?.description
 const canonicalUrl = `${global.siteUrl}/about/`
 
+usePageOgImage({
+  title,
+  description,
+  image: page.value.seo.image
+})
+
 useHead({
   link: [{ rel: 'canonical', href: canonicalUrl }],
   script: [{
@@ -39,12 +45,8 @@ useSeoMeta({
   ogDescription: description,
   ogUrl: canonicalUrl,
   ogLocale: 'en_GB',
-  ogImage: `${global.siteUrl}${global.picture.light}`,
-  ogImageAlt: 'About Adam Menczykowski',
   twitterTitle: `${title} | Adam Menczykowski`,
-  twitterDescription: description,
-  twitterImage: `${global.siteUrl}${global.picture.light}`,
-  twitterImageAlt: 'About Adam Menczykowski'
+  twitterDescription: description
 })
 </script>
 

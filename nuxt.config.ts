@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/content',
     '@vueuse/nuxt',
+    'nuxt-og-image',
     'motion-v/nuxt'
   ],
 
@@ -14,6 +15,10 @@ export default defineNuxtConfig({
   },
 
   css: ['~/assets/css/main.css'],
+
+  site: {
+    url: 'https://adammenczykowski.com'
+  },
 
   content: {
     experimental: {
@@ -32,6 +37,11 @@ export default defineNuxtConfig({
         '/blog'
       ],
       crawlLinks: true
+    },
+    routeRules: {
+      '/_og/r/': {
+        redirect: '/_og/r/og-preview/home'
+      }
     }
   },
 
@@ -49,5 +59,10 @@ export default defineNuxtConfig({
       { name: 'Public Sans', provider: 'none' },
       { name: 'Instrument Serif', provider: 'none' }
     ]
+  },
+
+  ogImage: {
+    // Keep the preview and resolver endpoints available during local development.
+    zeroRuntime: !import.meta.dev
   }
 })

@@ -1,5 +1,10 @@
+seo:
+  title: "About Adam"
+  description: "Meet Adam Menczykowski, a musician-turned-design engineer, self-taught developer and lifelong maker."
+  image:
+    src: "/og/AdobeStock_168746180.jpeg"
 title: "About Adam"
-description: "I'm a musician-turned-design engineer, self-taught developer and lifelong maker based in Hitchin, UK."
+description: "I'm a musician-turned-design engineer, self-taught developer and lifelong maker"
 content: |
   Before software, there was music. I studied Music Production, ran a recording studio in Letchworth and spent six years producing records and mixing live shows around the world with artists including Phoenix, Get Cape. Wear Cape. Fly. and Good Shoes. Hundreds of soundchecks and shows taught me to listen carefully, stay calm when things go wrong and care about the details most people never see but everyone feels.
 

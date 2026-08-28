@@ -20,6 +20,12 @@ const createImageSchema = () => z.object({
   alt: z.string()
 })
 
+const createSeoSchema = () => z.object({
+  title: z.string(),
+  description: z.string(),
+  image: createImageSchema().optional()
+})
+
 const createLinkSchema = () => z.object({
   label: z.string(),
   to: z.string().url(),
@@ -46,6 +52,7 @@ export default defineContentConfig({
       type: 'page',
       source: 'index.yml',
       schema: z.object({
+        seo: createSeoSchema(),
         hero: z.object({
           links: z.array(createButtonSchema()),
           images: z.array(createImageSchema())
@@ -83,10 +90,7 @@ export default defineContentConfig({
       type: 'data',
       source: 'links.yml',
       schema: z.object({
-        seo: z.object({
-          title: z.string(),
-          description: z.string()
-        }),
+        seo: createSeoSchema(),
         name: z.string(),
         handle: z.string(),
         bio: z.string(),
@@ -145,6 +149,7 @@ export default defineContentConfig({
       type: 'page',
       source: 'about.yml',
       schema: z.object({
+        seo: createSeoSchema(),
         content: z.object({}),
         images: z.array(createImageSchema())
       })

@@ -1,6 +1,8 @@
 seo:
   title: "Links"
   description: "Find Adam Menczykowski around the web."
+  image:
+    src: "/og/AdobeStock_125319866.jpeg"
 name: "Adam Menczykowski"
 handle: "@adammench"
 bio: "Musician-turned design engineer exploring craft, technology and how to make complicated things understandable."
