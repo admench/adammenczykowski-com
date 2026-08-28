@@ -75,14 +75,6 @@ useSeoMeta({
               <p class="text-muted">
                 {{ video.description }}
               </p>
-              <UButton
-                :to="video.path"
-                label="View video"
-                trailing-icon="i-lucide-arrow-right"
-                color="neutral"
-                variant="link"
-                class="px-0"
-              />
             </div>
           </article>
         </Motion>

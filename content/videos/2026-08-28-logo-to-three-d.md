@@ -1,7 +1,8 @@
 ---
 title: 3D Web Logo Technique
-description: wip
-video: https://youtube.com/embed/OBltpxpqs1Q
+description: I took this amazing M logo from Figma as an SVG, I imported it into Blender and extruded it as a 3D object, and then I rendered it in the browser with an animation and an ASCII art text effect using 3JS. I think it really helps the brand stand out.
+
+video: https://www.youtube.com/embed/Rmfw5Z0OrGY
 image: /videos/2026-08-28-lessons-from-live-shows.png
 aspectRatio: portrait
 ---
