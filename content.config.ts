@@ -111,6 +111,17 @@ export default defineContentConfig({
         date: z.date()
       })
     }),
+    videos: defineCollection({
+      type: 'page',
+      source: 'videos/*.md',
+      schema: z.object({
+        title: z.string().nonempty(),
+        description: z.string().nonempty(),
+        video: z.string().url(),
+        image: z.string().nonempty().editor({ input: 'media' }),
+        aspectRatio: z.enum(['portrait', 'landscape'])
+      })
+    }),
     blog: defineCollection({
       type: 'page',
       source: 'blog/*.md',
@@ -125,7 +136,8 @@ export default defineContentConfig({
       type: 'page',
       source: [
         { include: 'projects.yml' },
-        { include: 'blog.yml' }
+        { include: 'blog.yml' },
+        { include: 'videos.yml' }
       ],
       schema: z.object({
         links: z.array(createButtonSchema()).optional()

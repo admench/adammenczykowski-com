@@ -16,6 +16,12 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
+  vue: {
+    compilerOptions: {
+      isCustomElement: tag => tag === 'lite-youtube'
+    }
+  },
+
   site: {
     url: 'https://adammenczykowski.com'
   },
@@ -34,7 +40,8 @@ export default defineNuxtConfig({
         '/',
         '/about/',
         '/links',
-        '/blog'
+        '/blog',
+        '/videos'
       ],
       crawlLinks: true
     },

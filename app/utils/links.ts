@@ -14,6 +14,11 @@ export const navLinks: NavigationMenuItem[] = [{
   label: 'Blog',
   icon: 'i-lucide-file-text',
   to: '/blog'
+},
+{
+  label: 'Videos',
+  icon: 'i-lucide-video',
+  to: '/videos'
 }]
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
