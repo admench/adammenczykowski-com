@@ -115,6 +115,7 @@ export default defineContentConfig({
       type: 'page',
       source: 'videos/*.md',
       schema: z.object({
+        date: z.date(),
         title: z.string().nonempty(),
         description: z.string().nonempty(),
         video: z.string().url(),

@@ -5,7 +5,7 @@ const { data: page } = await useAsyncData('videos-page', () =>
 if (!page.value) throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
 
 const { data: videos } = await useAsyncData('videos', () =>
-  queryCollection('videos').all()
+  queryCollection('videos').order('date', 'DESC').all()
 )
 if (!videos.value) throw createError({ statusCode: 404, statusMessage: 'Videos not found', fatal: true })
 
