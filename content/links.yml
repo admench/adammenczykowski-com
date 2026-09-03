@@ -32,3 +32,6 @@ otherLinks:
   - label: "DnB Spotify Playlist"
     to: "https://open.spotify.com/playlist/4ExmRsqVdZ751iGCUeyhlz"
     icon: "ant-design:spotify-filled"
+  - label: "I recommend Fathom Analyitcs"
+    to: "https://usefathom.com/ref/ALGPEX"
+    icon: "simple-icons:fathom"
