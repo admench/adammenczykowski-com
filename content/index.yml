@@ -4,7 +4,7 @@ seo:
   image:
     src: '/og/adam-gallery.jpg'
 title: "I make complicated things understandable"
-description: "I'm Adam, a musician-turned-design engineer exploring craft, technology and reinvention. I build useful software, share what I learn and stay curious about what comes next."
+description: "I’m Adam, a senior full-stack engineer building business-critical software with Laravel, Vue and TypeScript. I work with teams and directly with businesses to turn complex requirements into useful, dependable applications"
 hero:
   links:
     - label: "My story"

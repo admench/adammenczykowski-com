@@ -40,7 +40,13 @@ useSeoMeta({
 
 <template>
   <UPage v-if="page">
-    <LandingHero :page />
+    <LandingHero :page>
+      <template #append-description>
+        <div class="text-neutral-400 dark:text-neutral-500 mt-2 text-xs font-medium">
+          Based in Hitchin, UK · Working remotely with teams across the UK
+        </div>
+      </template>
+    </LandingHero>
     <LandingAbout :page />
     <LandingBlog :page />
     <LandingWorkExperience

@@ -31,6 +31,7 @@ defineProps<{
 
     <template #description>
       {{ page.description }}
+      <slot name="append-description" />
     </template>
 
     <template #links>
