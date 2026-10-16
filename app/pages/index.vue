@@ -63,7 +63,6 @@ useSeoMeta({
       :page
       class="mt-8"
     />
-    <LandingBlog :page />
     <LandingWorkExperience
       :page
     />

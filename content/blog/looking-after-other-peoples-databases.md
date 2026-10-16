@@ -15,31 +15,23 @@ Most of my week is design and engineering. Interfaces, Laravel, Statamic, the lo
 
 Every so often the job is different. Recently I helped the Hepworth Catalogue project move their FileMaker setup onto a dedicated AWS host. The research itself was not mine to do. My job was the unglamorous part: a reliable machine, backups that mean something, access that is not a single shared password on a sticky note.
 
-It sat a bit outside my comfort zone. That is usually a sign I should write the learning down.
-
 ## What I was actually looking after
 
-A catalogue raisonné is the complete record of an artist’s work — every piece that can be traced, with the research behind it. For Barbara Hepworth that work has been going on for years. The public may eventually see a book or a website. Day to day, the project lives in a database.
-
-That pattern is familiar to me now, even if the subject changes.
+A catalogue raisonné is the complete record of an artist’s work — every piece that can be traced, with the research behind it. For The Hepworth Catalogue that work has been going on for years. The public may eventually see a book or a website. Day to day, the project lives in a database.
 
 I built the website and members’ platform for the [International Catalogue Raisonné Association](https://icra.art), so I have spent a lot of time around the people who compile these catalogues. Before that, with Abby at [You I](https://youi.design), we replaced a nearly forty-year-old desktop database for a literary scouting firm. Decades of titles, contacts and relationships. Hundreds of clients who needed to keep working while the old system came apart.
 
-Art scholarship and literary scouting do not look alike from the outside. Underneath they are the same shape. A small team. Knowledge that took years to build. A tool they know intimately. Very little spare technical capacity. And a file that would be a disaster to lose.
+Art scholarship and literary scouting do not look alike from the outside. Underneath they are the same shape. A small team with knowledge that took years to build. A tool they know intimately. Very little spare technical capacity. And a database that would be a disaster to lose.
 
 Once you have seen that shape a few times, you stop thinking of the work as “a website” or “a server”. You start thinking of it as stewardship.
 
 ## Longevity is the real brief
 
-Catalogue projects run for ten or twenty years. Literary archives do too. The original developer will not still be on the same laptop. The original hosting account may not even exist.
+Catalogue projects run for ten or twenty years. Literary archives even longer. The original developer will not still be on the same laptop. The original hosting account may not even exist.
 
-So the first question is not “what is clever?” It is “what will still make sense in a decade?”
+So the first question is not “what is clever?” It is “what will still make sense in a decade?” - for the Hepworth Estate work that meant a dedicated host, not a machine under someone’s desk. It meant treating backup as part of the build, not a job for later. It meant preferring a boring, known setup over a neat trick I would have to remember.
 
-For the Hepworth work that meant a dedicated host, not a machine under someone’s desk. It meant treating backup as part of the build, not a job for later. It meant preferring a boring, known setup over a neat trick I would have to remember.
-
-I like building things. I do not like building things that only work if I am the one holding them. Fashionable infrastructure is a gift to my curiosity and a problem for the client. Practical infrastructure is the opposite.
-
-If a choice makes the system easier for me this month and harder for them in five years, it is the wrong choice.
+I like building things. I do not like building things that only work if I am the one holding them. If a choice makes the system easier for me this month and harder for them in five years, it is the wrong choice.
 
 ## Security is mostly not exciting
 
@@ -47,9 +39,7 @@ People hear “AWS” and imagine a big architecture diagram. What actually matt
 
 Who can log in. Who owns the account. Whether the database is sitting on the public internet because that was the default. Whether backups are encrypted. Whether anyone has ever tried to restore one. Whether the only copy of a password lives in one person’s head.
 
-None of that is a conference talk. All of it is the difference between a research file that survives and one that does not.
-
-If I cannot explain the setup in plain language, it's too clever. If the client cannot name the people who have access, it's too loose. If a restore has never been tested, you do not have a backup. You have a hope.
+None of that is a conference talk. All of it is the difference between a research file that survives and one that does not. If I cannot explain the setup in plain language, it's too clever. If the client cannot name the people who have access, it's too loose. If a restore has never been tested, you do not have a backup. You have a hope.
 
 The music years are useful for this. Hundreds of soundchecks teach you the same thing: the details nobody sees are the ones everyone feels when they go wrong. Stay calm. Check the unglamorous path. Do not assume last night’s setup is still true this afternoon.
 
