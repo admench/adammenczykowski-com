@@ -1,18 +1,42 @@
 seo:
-  title: "About Adam: Design Engineer & Developer"
-  description: "Meet Adam Menczykowski, a musician-turned-design engineer, self-taught developer and lifelong maker."
+  title: "About Adam: Senior Full-Stack Software Engineer"
+  description: "Senior full-stack software engineer and technical lead with 12+ years delivering business-critical applications with Laravel, Vue and TypeScript."
   image:
     src: "/og/AdobeStock_168746180.jpeg"
 title: "About Adam"
-description: "I'm a musician-turned-design engineer, self-taught developer and lifelong maker"
+description: "Senior full-stack software engineer and technical lead specialising in Laravel, Vue and TypeScript."
 content: |
-  Before software, there was music. I studied Music Production, ran a recording studio in Letchworth and spent six years producing records and mixing live shows around the world with artists including Phoenix, Get Cape. Wear Cape. Fly. and Good Shoes. Hundreds of soundchecks and shows taught me to listen carefully, stay calm when things go wrong and care about the details most people never see but everyone feels.
+  I'm Adam, a senior full-stack software engineer based in Hitchin, UK. I have 12+ years of experience delivering business-critical applications, internal systems and client portals. I specialise in Laravel, Vue and TypeScript, taking projects from architecture and database design through implementation, deployment and ongoing development.
 
-  I started teaching myself web development in 2012. The tools changed, but what attracted me to the work did not: craft, technology, collaboration and the satisfaction of turning a rough idea into a useful experience. In 2014, I co-founded [You I](https://youi.design) with my wife, Abby. Today, I work across design and engineering, following complicated products from the first conversation through interface design, architecture and code.
+  ## From embedded engineering to end-to-end delivery
 
-  ## What connects it all
+  Since 2014, I've co-run [You I Limited](https://youi.design) as Technical Director & Lead Developer. We've served 50+ clients, and I lead discovery, architecture, engineering and ongoing maintenance. My work includes translating stakeholder needs into practical technical designs, managing priorities, reviewing code and mentoring developers.
 
-  I'm interested in making complicated things understandable. In software, that means creating products that feel clear, useful and durable without pretending the complexity behind them does not exist. More broadly, it shapes how I think about communication, creativity, technological change and the value of good judgment. I prefer practical decisions over fashionable ones, and I believe the best work begins with curiosity and listening.
+  I also work within established software teams. From 2019–2024, I was contracted to Storm Technologies four days per week as a Senior JavaScript Developer, collaborating with internal teams on ERP, CRM and associated business applications.
+
+  ## Selected systems
+
+  **Eccles-Fisher Associates:** I delivered a Laravel/Vue replacement for a decades-old Visual Basic desktop database, including complex data migration across approximately 130,000 titles. The platform brings together search, reporting, permissions, multi-factor authentication, audit trails and a secure client portal, using Laravel, Vue/Inertia, Typesense and AWS.
+
+  **Storm Technologies:** I helped build an ERP covering sales, warehouse, finance, logistics and buildroom operations. I scaffolded the Nuxt/Vue front end, created a Figma UI design system and implemented Tailwind styling, light/dark modes and GraphQL integration alongside the existing software team.
+
+  **We Are Family:** Over five years, I built and evolved a bespoke Laravel/Vue membership and administration platform with segmented content, event and webinar management, reporting and role-based access, alongside ongoing feature delivery and support.
+
+  **International Catalogue Raisonné Association (ICRA):** I delivered a Laravel/Statamic/Vue website and custom paid-membership area with Stripe subscriptions. The platform launched in three months, and I continue to support and extend it.
+
+  ## Tools and approach
+
+  My backend work centres on Laravel, REST APIs, integrations, authentication and role-based access. On the front end, I use Vue, Nuxt, Inertia, TypeScript and Tailwind. I work with PostgreSQL and MySQL, legacy data migration, Typesense and Algolia search, AWS, Docker, Cloudflare, server management and deployment.
+
+  I also build with Statamic, Laravel Nova and Stripe, using Figma, Git, testing and code review throughout delivery. I use OpenCode for experience-backed agentic development, alongside ongoing self-directed learning through Laracasts, Codecourse and conversations with other developers.
+
+  ## From music to software
+
+  My degree is a BA (Hons) in Music Production. Before software, I worked in recording and live sound. That background taught me to listen carefully, communicate clearly and stay calm when something goes wrong—habits I still bring to engineering. I started teaching myself web development in 2012 and co-founded You I in 2014.
+
+  ## Working together
+
+  I'm seeking UK-remote contract and freelance work, ideally part-time, and I'm open to full-time fixed-term roles. I'm comfortable owning a project independently or contributing within an established team. Based in Hitchin, I'm also open to hybrid arrangements. [Email me at adam@youi.design](mailto:adam@youi.design) or [connect on LinkedIn](https://www.linkedin.com/in/adam-menczykowski/).
 
   ## Away from the screen
 

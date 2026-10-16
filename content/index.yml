@@ -1,10 +1,10 @@
 seo:
-  title: "Musician-Turned Design Engineer"
-  description: "Adam Menczykowski is a musician-turned-design engineer and developer exploring craft & technology"
+  title: "Senior Full-Stack Software Engineer"
+  description: "Adam Menczykowski is a senior full-stack software engineer with 12+ years delivering business-critical applications with Laravel, Vue and TypeScript."
   image:
     src: '/og/adam-gallery.jpg'
 title: "I make complicated things understandable"
-description: "I’m Adam, a senior full-stack engineer building business-critical software with Laravel, Vue and TypeScript. I work with teams and directly with businesses to turn complex requirements into useful, dependable applications"
+description: "I’m Adam, a senior full-stack software engineer with 12+ years building business-critical applications with Laravel, Vue and TypeScript. I work with teams and directly with businesses to turn complex requirements into useful, dependable software."
 hero:
   links:
     - label: "Selected work"
@@ -23,17 +23,17 @@ projects:
   items:
     - title: "Eccles-Fisher Associates"
       favicon: "https://www.ecclesfisher.com/images/favicons/favicon-32x32.png"
-      problem: "A decades-old desktop database held the publishing knowledge the business depended on."
-      contribution: "I built its Laravel/Vue replacement, migrating historic data and relationships and developing search, reporting and a secure client portal."
+      problem: "A decades-old Visual Basic desktop database held the publishing knowledge the business depended on."
+      contribution: "I built its Laravel/Vue replacement, migrating historic data and relationships and delivering search, reporting, permissions, multi-factor authentication, audit trails and a secure client portal."
       result: "A maintainable web platform supporting approximately 130,000 titles, with clearer workflows and direct client access."
-      stack: "Laravel · Vue · Inertia · Typesense"
+      stack: "Laravel · Vue/Inertia · Typesense · AWS"
       image:
         src: "/projects/placeholder.svg"
         alt: "Eccles-Fisher Associates project image placeholder"
     - title: "Storm Technologies"
       favicon: "https://25002768.fs1.hubspotusercontent-eu1.net/hubfs/25002768/Imported%20images/favicon.png"
-      problem: "An ERP needed to support complex processes across sales, warehouse, finance and logistics."
-      contribution: "I scaffolded the Nuxt front end, built reusable interface components and integrated GraphQL, working with stakeholders to translate requirements into usable screens."
+      problem: "An ERP needed to support complex processes across sales, warehouse, finance, logistics and buildroom operations."
+      contribution: "I scaffolded the Nuxt/Vue front end, created a Figma UI design system and implemented Tailwind styling, light/dark modes and GraphQL integration alongside stakeholders and the internal software team."
       result: "A consistent front-end foundation for a large, multi-department ERP, designed to grow with the application."
       stack: "Nuxt · Vue · Tailwind CSS · GraphQL"
       image:
@@ -42,7 +42,7 @@ projects:
     - title: "We Are Family"
       favicon: "https://wearefamilyadoption.org.uk/wp-content/uploads/2021/03/cropped-favicon-32x32.png"
       problem: "A growing adoption charity needed a bespoke way to support members and manage its community."
-      contribution: "Over five years, I built and evolved its membership and administration platform, including role-based access, events, resources and reporting."
+      contribution: "Over five years, I built and evolved its membership and administration platform, including segmented content, event and webinar management, reporting and role-based access."
       result: "A members’ hub and admin system that helps the team deliver targeted support and adapt as the charity grows."
       stack: "Laravel · Vue · Laravel Nova · Tailwind CSS"
       image:
@@ -56,29 +56,29 @@ experience:
   title: "Work experience"
   description: "From live music and studio production to full-stack product development."
   items:
-    - position: "Technical Director & Co-Founder"
-      date: "2014 - Present"
+    - position: "Technical Director & Lead Developer"
+      date: "2014–present"
       company:
         name: "You I"
         logo: "icons/YouIFavicon"
         url: "https://youi.design"
         color: "#444444"
     - position: "Senior JavaScript Developer"
-      date: "December 2019–August 2024"
+      date: "2019–2024"
       company:
         name: "Storm Technologies"
         logo: "icons/StormFavicon"
         url: "https://youi.design/work/storm-technologies"
         color: "#777777"
     - position: "Freelance Web Developer"
-      date: "2012 - 2014"
+      date: "2012–2014"
       company:
         name: "Independent"
         logo: "i-lucide-code-2"
         url: "/about/#from-music-to-software"
         color: "#777777"
     - position: "Live Sound & Studio Engineer"
-      date: "2006 - 2012"
+      date: "2006–2012"
       company:
         name: "Music industry"
         logo: "i-lucide-music-2"
@@ -117,7 +117,7 @@ faq:
       questions:
         - label: "What do you do?"
           content: |
-            I'm a design engineer and full-stack developer. I work across product thinking, user experience, interface design and software engineering, often taking an idea from the first sketch through to a reliable product in people's hands.
+            I'm a senior full-stack software engineer and technical lead specialising in Laravel, Vue and TypeScript. I work across architecture, database design, implementation and ongoing development, independently and within established software teams.
         - label: "What kinds of problems interest you?"
           content: |
             Messy, important ones. I enjoy untangling complicated workflows, ageing systems and scattered tools, then turning them into something people can understand and depend on. The technology matters, but only in service of making the problem clearer.
@@ -126,7 +126,7 @@ faq:
             Useful, understandable and durable. It should solve a real problem, feel calm to use and remain maintainable after the excitement of launch has passed. Good software respects both the people using it and the people who will look after it.
         - label: "How can we work together?"
           content: |
-            Most of my client work happens through [You I](https://youi.design), the digital product studio I run with my wife, Abby. I also collaborate with established product and engineering teams. If you have an interesting problem or simply want to compare notes, [send me an email](mailto:adam@youi.design).
+            Most of my client work happens through [You I](https://youi.design), the independent software development studio I co-run, serving 50+ clients. I also collaborate with established engineering teams. I'm seeking UK-remote contracts, ideally part-time, and I'm open to full-time fixed-term roles and hybrid arrangements. [Send me an email](mailto:adam@youi.design) to discuss working together.
     - title: "Backstory"
       questions:
         - label: "How did you go from music to software?"
