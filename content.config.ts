@@ -57,6 +57,17 @@ export default defineContentConfig({
           links: z.array(createButtonSchema()),
           images: z.array(createImageSchema())
         }),
+        projects: createBaseSchema().extend({
+          items: z.array(z.object({
+            title: z.string(),
+            favicon: z.string(),
+            problem: z.string(),
+            contribution: z.string(),
+            result: z.string(),
+            stack: z.string(),
+            image: createImageSchema()
+          }))
+        }),
         about: createBaseSchema(),
         experience: createBaseSchema().extend({
           items: z.array(z.object({

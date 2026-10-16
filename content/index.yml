@@ -15,6 +15,37 @@ hero:
       color: "neutral"
       variant: "outline"
   images: []
+projects:
+  title: "Systems I’ve helped deliver"
+  description: "Business-critical software, built around the people who use it."
+  items:
+    - title: "Eccles-Fisher Associates"
+      favicon: "https://www.ecclesfisher.com/images/favicons/favicon-32x32.png"
+      problem: "A decades-old desktop database held the publishing knowledge the business depended on."
+      contribution: "I built its Laravel/Vue replacement, migrating historic data and relationships and developing search, reporting and a secure client portal."
+      result: "A maintainable web platform supporting approximately 130,000 titles, with clearer workflows and direct client access."
+      stack: "Laravel · Vue · Inertia · Typesense"
+      image:
+        src: "/projects/placeholder.svg"
+        alt: "Eccles-Fisher Associates project image placeholder"
+    - title: "Storm Technologies"
+      favicon: "https://25002768.fs1.hubspotusercontent-eu1.net/hubfs/25002768/Imported%20images/favicon.png"
+      problem: "An ERP needed to support complex processes across sales, warehouse, finance and logistics."
+      contribution: "I scaffolded the Nuxt front end, built reusable interface components and integrated GraphQL, working with stakeholders to translate requirements into usable screens."
+      result: "A consistent front-end foundation for a large, multi-department ERP, designed to grow with the application."
+      stack: "Nuxt · Vue · Tailwind CSS · GraphQL"
+      image:
+        src: "/projects/placeholder.svg"
+        alt: "Storm Technologies project image placeholder"
+    - title: "We Are Family"
+      favicon: "https://wearefamilyadoption.org.uk/wp-content/uploads/2021/03/cropped-favicon-32x32.png"
+      problem: "A growing adoption charity needed a bespoke way to support members and manage its community."
+      contribution: "Over five years, I built and evolved its membership and administration platform, including role-based access, events, resources and reporting."
+      result: "A members’ hub and admin system that helps the team deliver targeted support and adapt as the charity grows."
+      stack: "Laravel · Vue · Laravel Nova · Tailwind CSS"
+      image:
+        src: "/projects/placeholder.svg"
+        alt: "We Are Family project image placeholder"
 about:
   title: "Craft, curiosity and making things useful"
   description: |

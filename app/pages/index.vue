@@ -47,6 +47,7 @@ useSeoMeta({
         </div>
       </template>
     </LandingHero>
+    <LandingProjects :page />
     <LandingAbout :page />
     <LandingBlog :page />
     <LandingWorkExperience
