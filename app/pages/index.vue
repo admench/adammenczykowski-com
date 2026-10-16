@@ -48,7 +48,21 @@ useSeoMeta({
       </template>
     </LandingHero>
     <LandingProjects :page />
-    <LandingAbout :page />
+    <UPageSection
+      icon="i-lucide-rocket"
+      title="From embedded engineering to end-to-end delivery"
+      description="I work alongside established software teams and take ownership of projects directly—from architecture and implementation to ongoing development."
+      :ui="{
+        container: 'pt-0! gap-4 sm:gap-4',
+        title: 'text-xl sm:text-xl lg:text-2xl font-medium',
+        description: 'mt-3 text-muted max-w-prose mx-auto sm:text-base'
+      }"
+    />
+    <USeparator />
+    <LandingAbout
+      :page
+      class="mt-8"
+    />
     <LandingBlog :page />
     <LandingWorkExperience
       :page
