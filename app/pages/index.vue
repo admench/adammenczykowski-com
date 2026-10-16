@@ -48,6 +48,7 @@ useSeoMeta({
       </template>
     </LandingHero>
     <LandingProjects :page />
+    <LandingTestimonials :page />
     <UPageSection
       icon="i-lucide-rocket"
       title="From embedded engineering to end-to-end delivery"
@@ -58,15 +59,14 @@ useSeoMeta({
         description: 'mt-3 text-muted max-w-prose mx-auto sm:text-base'
       }"
     />
+    <LandingWorkExperience
+      :page
+    />
     <USeparator />
     <LandingAbout
       :page
       class="mt-8"
     />
-    <LandingWorkExperience
-      :page
-    />
-    <LandingTestimonials :page />
     <LandingFAQ :page />
   </UPage>
 </template>

@@ -11,11 +11,6 @@ export const navLinks: NavigationMenuItem[] = [{
   to: '/about/'
 },
 {
-  label: 'Blog',
-  icon: 'i-lucide-file-text',
-  to: '/blog'
-},
-{
   label: 'Videos',
   icon: 'i-lucide-video',
   to: '/videos'
