@@ -13,11 +13,15 @@ const { footer } = useAppConfig()
 
     <template #right>
       <template v-if="footer?.links">
-        <UButton
+        <UTooltip
           v-for="(link, index) of footer?.links"
           :key="index"
-          v-bind="{ size: 'xs', color: 'neutral', variant: 'ghost', ...link }"
-        />
+          :text="link.title || link['aria-label']"
+        >
+          <UButton
+            v-bind="{ size: 'xs', color: 'neutral', variant: 'ghost', ...link }"
+          />
+        </UTooltip>
       </template>
     </template>
   </UFooter>

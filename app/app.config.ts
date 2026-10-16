@@ -29,6 +29,7 @@ export default defineAppConfig({
     links: [
       {
         'icon': 'i-simple-icons-linkedin',
+        'featured': true,
         'to': 'https://www.linkedin.com/in/adam-menczykowski/',
         'target': '_blank',
         'title': 'Adam on LinkedIn',
@@ -48,12 +49,14 @@ export default defineAppConfig({
       },
       {
         'icon': 'i-lucide-rocket',
+        'featured': true,
         'to': 'https://youi.design',
         'target': '_blank',
         'title': 'You I Limited',
         'aria-label': 'You I Limited'
       }, {
         'icon': 'i-simple-icons-x',
+        'featured': true,
         'to': 'https://x.com/adammench',
         'target': '_blank',
         'aria-label': 'Adam on X',

@@ -96,7 +96,7 @@ defineProps<{
 
       <div class="gap-x-4 inline-flex mt-4">
         <Motion
-          v-for="(link, index) of footer?.links"
+          v-for="(link, index) of footer?.links.filter(link => 'featured' in link && link.featured)"
           :key="index"
 
           :initial="{
