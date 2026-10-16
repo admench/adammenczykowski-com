@@ -28,6 +28,19 @@ export default defineAppConfig({
     colorMode: false,
     links: [
       {
+        'icon': 'i-simple-icons-linkedin',
+        'to': 'https://www.linkedin.com/in/adam-menczykowski/',
+        'target': '_blank',
+        'title': 'Adam on LinkedIn',
+        'aria-label': 'Adam on LinkedIn'
+      },
+      {
+        'icon': 'i-lucide-mail',
+        'to': 'mailto:adam@youi.design',
+        'title': 'adam@youi.design',
+        'aria-label': 'Email Adam at adam@youi.design'
+      },
+      {
         'icon': 'i-lucide-link',
         'to': '/links',
         'title': 'Links',

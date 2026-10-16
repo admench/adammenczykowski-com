@@ -2,6 +2,25 @@
 import type { IndexCollectionItem } from '@nuxt/content'
 
 const { footer, global } = useAppConfig()
+const toast = useToast()
+
+async function copyEmail() {
+  try {
+    await navigator.clipboard.writeText('adam@youi.design')
+    toast.add({
+      title: 'Email address copied',
+      description: 'adam@youi.design',
+      color: 'success',
+      icon: 'i-lucide-check-circle'
+    })
+  } catch {
+    toast.add({
+      title: 'Couldn’t copy email address',
+      description: 'You can email me at adam@youi.design.',
+      color: 'error'
+    })
+  }
+}
 
 defineProps<{
   page: IndexCollectionItem
@@ -56,9 +75,24 @@ defineProps<{
             v-for="link in page.hero.links"
             :key="link.label"
             v-bind="link"
+            :to="link.to === 'mailto:adam@youi.design' ? undefined : link.to"
+            @click="link.to === 'mailto:adam@youi.design' && copyEmail()"
           />
         </div>
       </Motion>
+
+      <div
+        v-if="page.hero.cv"
+        class="mt-4 text-sm"
+      >
+        <a
+          :href="page.hero.cv"
+          download
+          class="text-muted hover:text-highlighted underline underline-offset-4"
+        >
+          Download CV
+        </a>
+      </div>
 
       <div class="gap-x-4 inline-flex mt-4">
         <Motion
@@ -80,9 +114,11 @@ defineProps<{
             delay: 0.5 + index * 0.1
           }"
         >
-          <UButton
-            v-bind="{ size: 'md', color: 'neutral', variant: 'ghost', ...link }"
-          />
+          <UTooltip :text="link.title || link['aria-label']">
+            <UButton
+              v-bind="{ size: 'md', color: 'neutral', variant: 'ghost', ...link }"
+            />
+          </UTooltip>
         </Motion>
       </div>
     </template>

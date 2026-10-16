@@ -54,6 +54,7 @@ export default defineContentConfig({
       schema: z.object({
         seo: createSeoSchema(),
         hero: z.object({
+          cv: z.string().optional(),
           links: z.array(createButtonSchema()),
           images: z.array(createImageSchema())
         }),

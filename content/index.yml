@@ -7,13 +7,15 @@ title: "I make complicated things understandable"
 description: "I’m Adam, a senior full-stack engineer building business-critical software with Laravel, Vue and TypeScript. I work with teams and directly with businesses to turn complex requirements into useful, dependable applications"
 hero:
   links:
-    - label: "My story"
-      to: "/about/"
+    - label: "Selected work"
+      to: "#selected-work"
       color: "neutral"
-    - label: "Latest posts"
-      to: "/blog/"
+    - label: "Get in touch"
+      to: "mailto:adam@youi.design"
       color: "neutral"
       variant: "outline"
+  # Add a public file path here once the CV PDF is ready.
+  cv: ""
   images: []
 projects:
   title: "Systems I’ve helped deliver"
